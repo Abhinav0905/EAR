@@ -5,9 +5,9 @@ Multi-Call Agentic RAG at a Single Generator Call* (under review, IEEE Access). 
 ships the per-question evaluation **data** and the **code** that produced it, so every table in the
 paper is reproducible.
 
-<!-- After Zenodo mints the DOI, add the badge and replace the placeholder throughout:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) -->
-**DOI:** _to be minted by Zenodo on first release (see "Archiving" below)._
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21202098.svg)](https://doi.org/10.5281/zenodo.21202098)
+
+**DOI:** [10.5281/zenodo.21202098](https://doi.org/10.5281/zenodo.21202098) (concept DOI — always resolves to the latest version). The specific v1.0.1 snapshot is [10.5281/zenodo.21202195](https://doi.org/10.5281/zenodo.21202195).
 
 ## What this is
 
@@ -80,9 +80,11 @@ Dual-licensed: **code** (`ear_eval/`) under the **MIT License** ([`LICENSE`](LIC
 
 ## Archiving (Zenodo DOI)
 
-This repo is set up for GitHub↔Zenodo archival: enable the repository in your Zenodo account, then
-publish a GitHub Release — Zenodo archives that release and mints a DOI. Add the DOI badge above and
-into `CITATION.cff`/`.zenodo.json`, then cut a follow-up release so the metadata carries the DOI.
+This repo is archived on Zenodo via the GitHub↔Zenodo integration: each published GitHub Release is
+archived and versioned under a stable **concept DOI** ([10.5281/zenodo.21202098](https://doi.org/10.5281/zenodo.21202098))
+that always resolves to the latest version. The current archived snapshot is **v1.0.1**
+([10.5281/zenodo.21202195](https://doi.org/10.5281/zenodo.21202195)). Future releases add new versions
+under the same concept DOI.
 
 ## Related
 

@@ -14,7 +14,7 @@ license:
   - MIT         # code (ear_eval/)
 repository-code: "https://github.com/Abhinav0905/EAR"
 url: "https://github.com/Abhinav0905/EAR"
-# doi: "10.5281/zenodo.XXXXXXX"   # TODO: fill in after Zenodo mints the DOI, then re-release
+doi: "10.5281/zenodo.21202098"   # concept DOI (all versions; resolves to latest)
 keywords:
   - retrieval-augmented generation
   - agentic RAG
