@@ -1,0 +1,22 @@
+{
+  "title": "Embedded Agentic Retrieval (EAR): evaluation dataset and harness",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    {
+      "name": "Kumar, Abhinav",
+      "affiliation": "AiDash"
+    }
+  ],
+  "description": "<p>Per-question evaluation records and the reproducible evaluation harness for the study <em>Embedded Agentic Retrieval (EAR): Answer-Quality Parity With Multi-Call Agentic RAG at a Single Generator Call</em>.</p><p><strong>data/</strong> contains the per-question records (six pipelines across four corpora; a cross-family GPT-4o-mini judge run; a cross-family GPT-4o-mini generation run; ablations; a combined-index multi-document experiment; retriever precision). <strong>ear_eval/</strong> contains the Python harness that produced them.</p><p><strong>Licensing:</strong> the data (data/) is licensed CC BY 4.0; the code (ear_eval/) is licensed MIT. This Zenodo record's license field reflects the data license.</p>",
+  "keywords": [
+    "retrieval-augmented generation",
+    "agentic RAG",
+    "small language models",
+    "LoRA",
+    "parameter-efficient fine-tuning",
+    "LLM-as-a-judge",
+    "question answering"
+  ]
+}

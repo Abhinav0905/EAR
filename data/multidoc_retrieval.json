@@ -1,0 +1,94 @@
+{
+  "docs": [
+    "wmp",
+    "arxiv",
+    "misalignment"
+  ],
+  "top_n": 5,
+  "n_questions": 319,
+  "by_src_count": {
+    "wmp": 100,
+    "arxiv": 119,
+    "misalignment": 100
+  },
+  "retrievers": {
+    "dense": {
+      "wmp": {
+        "n": 100,
+        "top1": 1.0,
+        "recall5": 1.0,
+        "prec5": 1.0
+      },
+      "arxiv": {
+        "n": 119,
+        "top1": 0.9412,
+        "recall5": 0.9748,
+        "prec5": 0.9412
+      },
+      "misalignment": {
+        "n": 100,
+        "top1": 0.91,
+        "recall5": 0.91,
+        "prec5": 0.896
+      },
+      "_all": {
+        "n": 319,
+        "top1": 0.9498,
+        "recall5": 0.9624,
+        "prec5": 0.9455
+      }
+    },
+    "reranked": {
+      "wmp": {
+        "n": 100,
+        "top1": 1.0,
+        "recall5": 1.0,
+        "prec5": 1.0
+      },
+      "arxiv": {
+        "n": 119,
+        "top1": 0.958,
+        "recall5": 0.9916,
+        "prec5": 0.9546
+      },
+      "misalignment": {
+        "n": 100,
+        "top1": 0.91,
+        "recall5": 0.93,
+        "prec5": 0.91
+      },
+      "_all": {
+        "n": 319,
+        "top1": 0.9561,
+        "recall5": 0.9749,
+        "prec5": 0.9549
+      }
+    },
+    "ear": {
+      "wmp": {
+        "n": 100,
+        "top1": 1.0,
+        "recall5": 1.0,
+        "prec5": 1.0
+      },
+      "arxiv": {
+        "n": 119,
+        "top1": 0.9412,
+        "recall5": 0.9748,
+        "prec5": 0.9412
+      },
+      "misalignment": {
+        "n": 100,
+        "top1": 0.91,
+        "recall5": 0.91,
+        "prec5": 0.896
+      },
+      "_all": {
+        "n": 319,
+        "top1": 0.9498,
+        "recall5": 0.9624,
+        "prec5": 0.9455
+      }
+    }
+  }
+}
