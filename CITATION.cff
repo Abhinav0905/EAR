@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+title: "Embedded Agentic Retrieval (EAR): evaluation dataset and harness"
+authors:
+  - family-names: Kumar
+    given-names: Abhinav
+    email: rushtoabhinavin@gmail.com   # artifact/maintainer contact (personal, for continuity across the review cycle)
+    affiliation: AiDash
+    orcid: "https://orcid.org/0009-0009-1839-841X"
+version: "1.0.0"
+date-released: "2026-07-04"
+license:
+  - CC-BY-4.0   # data (data/)
+  - MIT         # code (ear_eval/)
+repository-code: "https://github.com/Abhinav0905/EAR"
+url: "https://github.com/Abhinav0905/EAR"
+# doi: "10.5281/zenodo.XXXXXXX"   # TODO: fill in after Zenodo mints the DOI, then re-release
+keywords:
+  - retrieval-augmented generation
+  - agentic RAG
+  - small language models
+  - LoRA
+  - parameter-efficient fine-tuning
+  - LLM-as-a-judge
+  - question answering
+abstract: >-
+  Per-question evaluation records and the evaluation harness for the study
+  "Embedded Agentic Retrieval (EAR): Answer-Quality Parity With Multi-Call
+  Agentic RAG at a Single Generator Call." Includes six-pipeline results on four
+  corpora, a cross-family judge run, a cross-family generation run, ablations,
+  a combined-index multi-document experiment, and the reproducible harness.
