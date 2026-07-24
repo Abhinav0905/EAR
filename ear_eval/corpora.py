@@ -234,6 +234,39 @@ def generate_questions(corpus_name, chunks, title, n, aux_model=None, seed=0, ca
     return combined
 
 
+def load_gnu_questions(path, corpus_name):
+    """Load the provided GNU second-domain question set, filtered to one corpus.
+
+    The file (gnu_manuals_questions.jsonl) is hand-authored ground truth with fields
+    qid/corpus/question/reference_answer/expected_pages/question_type/difficulty. Pages are
+    1-based physical PDF pages, matching this harness's chunk .page (verified offset 0), so
+    they are used as-is. question_type -> category; negatives are answerable=False.
+    """
+    out = []
+    with open(path) as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            q = json.loads(line)
+            if q.get("corpus") != corpus_name:
+                continue
+            cat = q.get("question_type", "lookup")
+            out.append({
+                "id": q["qid"],
+                "question": q["question"],
+                "reference_answer": q.get("reference_answer", ""),
+                "category": cat,
+                "expected_pages": q.get("expected_pages", []) or [],
+                "expected_source": "",
+                "answerable": not str(cat).startswith("negative"),
+                "curated": True,
+            })
+    if not out:
+        raise ValueError(f"no questions found for corpus {corpus_name!r} in {path}")
+    return out
+
+
 def load_wmp_golden(path, corpus_name="wmp"):
     """Map the curated WMP golden set into the harness schema."""
     data = json.loads(open(path).read())

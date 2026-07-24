@@ -28,10 +28,14 @@ runs (see conventions below).
 | `crossjudge_human_gpt4omini.jsonl` | 49 | GPT-4o-mini vs two human annotators on the blinded human sample |
 | `crossjudge_gpt4omini.json` | — | Cross-family-judge analysis (agreement, per-corpus verdicts, human correlation) |
 | `multidoc_retrieval.json` | — | Combined-index retriever precision (correct-document top-1 / recall@5 / precision@5) |
+| `wmp_significance_9rubric.csv` | — | WMP EAR-vs-baseline significance under the 9-rubric judge (in-scope), for the second-domain comparison |
+| `gnu_second_domain/` | 810 | **Second-domain study (v1.1)** — GNU bash/coreutils/make: CSVs, checkpoints, question set, `package_gnu.py`, and `NOTICE.md`. Checkpoint excerpts are **GFDL** (see its NOTICE) |
 
 Question text and gold/reference answers are embedded inline in every record (`question`,
 `reference_answer`), so the set is self-contained; the QASPER questions are the dataset's native
-human-authored ones.
+human-authored ones. **`gnu_second_domain/` has its own [`README.md`](gnu_second_domain/README.md)
+and [`NOTICE.md`](gnu_second_domain/NOTICE.md)** — its raw checkpoints embed short verbatim GNU-manual
+excerpts that remain under the GFDL; the manuals themselves are not redistributed.
 
 ## Record schema
 

@@ -1,0 +1,6 @@
+corpus,baseline,n,delta_gen,wilcoxon_p,boot_ci_low,boot_ci_high,cohens_d,ear_llm_calls,base_llm_calls,llm_reduction_pct,ear_cost,base_cost,cost_reduction_pct
+wmp,simple,79,0.051,0.2765,-0.076,0.17,0.093,1.0,1.0,0.0,0.00735,0.00828,11.2
+wmp,reranked_simple,79,-0.046,0.7954,-0.238,0.134,-0.053,1.0,1.0,0.0,0.00735,0.00733,-0.3
+wmp,agentic,79,-0.051,0.761,-0.225,0.101,-0.068,1.0,3.71,73.0,0.00735,0.02327,68.4
+wmp,self_rag,79,-0.099,0.5318,-0.354,0.162,-0.084,1.0,4.01,75.1,0.00735,0.01517,51.6
+wmp,flare,79,-0.03,0.9555,-0.227,0.166,-0.033,1.0,3.0,66.7,0.00735,0.01385,46.9

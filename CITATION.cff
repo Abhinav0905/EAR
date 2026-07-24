@@ -7,11 +7,12 @@ authors:
     email: rushtoabhinavin@gmail.com   # artifact/maintainer contact (personal, for continuity across the review cycle)
     affiliation: AiDash
     orcid: "https://orcid.org/0009-0009-1839-841X"
-version: "1.0.0"
-date-released: "2026-07-04"
+version: "1.1.0"
+date-released: "2026-07-19"
 license:
   - CC-BY-4.0   # data (data/)
   - MIT         # code (ear_eval/)
+  - GFDL-1.3    # embedded manual excerpts in data/gnu_second_domain/*_checkpoint.jsonl (see NOTICE.md)
 repository-code: "https://github.com/Abhinav0905/EAR"
 url: "https://github.com/Abhinav0905/EAR"
 doi: "10.5281/zenodo.21202098"   # concept DOI (all versions; resolves to latest)
@@ -28,4 +29,6 @@ abstract: >-
   "Embedded Agentic Retrieval (EAR): Answer-Quality Parity With Multi-Call
   Agentic RAG at a Single Generator Call." Includes six-pipeline results on four
   corpora, a cross-family judge run, a cross-family generation run, ablations,
-  a combined-index multi-document experiment, and the reproducible harness.
+  a combined-index multi-document experiment, a second-domain generalization
+  study on GNU technical documentation (bash/coreutils/make), and the
+  reproducible harness.

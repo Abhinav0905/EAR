@@ -1,0 +1,136 @@
+qid	corpus	pdf_pages	question
+bash-001	bash	82	What does the pipefail option do and how is it enabled?
+bash-002	bash	54	What is the value range of a normal command exit status in bash?
+bash-003	bash	30	Which special parameter holds the exit status of the most recently executed foreground pipeline?
+bash-004	bash	103	What does the $RANDOM variable expand to?
+bash-005	bash	116	How do you declare an associative array in bash?
+bash-006	bash	12	Inside double quotes, does the dollar sign keep its special meaning?
+bash-007	bash	84	What does the shopt builtin do?
+bash-008	bash	65	What does the trap builtin do?
+bash-009	bash	117	What does ${#parameter} expand to?
+bash-010	bash	35	How do you extract a substring with parameter expansion?
+bash-011	bash	34	What does ${parameter:-word} do?
+bash-012	bash	42	What is the syntax for command substitution?
+bash-013	bash	43	What is process substitution?
+bash-014	bash	27	What does the local builtin do inside a function?
+bash-015	bash	76	Which read options set a prompt and a timeout?
+bash-016	bash	50	What is a here-string?
+bash-017	bash	49	How do you redirect standard error to standard output?
+bash-018	bash	31	What does brace expansion produce?
+bash-019	bash	33	What does tilde expansion do?
+bash-020	bash	61	What does the getopts builtin do?
+bash-021	bash	92	What does the IFS variable control?
+bash-022	bash	80	What does set -e (errexit) do?
+bash-023	bash	18	What is the syntax of a C-style for loop in bash?
+bash-024	bash	20	What does the select compound command do?
+bash-025	bash	75	What does the printf builtin do?
+bash-026	bash	134	What does the wait builtin do?
+bash-027	bash	92	What is the CDPATH variable used for?
+bash-028	bash	66	What does the umask builtin set?
+bash-029	bash	67	What does the alias builtin do?
+bash-030	bash	60	What does the exec builtin do?
+cu-001	coreutils	12	What does the --help option print for GNU coreutils programs?
+cu-002	coreutils	24	What does cat do with the -n option?
+cu-003	coreutils	24	What does cat do with the -s option?
+cu-004	coreutils	25	What does the tac command do?
+cu-005	coreutils	41	How many lines does head print by default and how do you change it?
+cu-006	coreutils	43	How do you make tail follow a growing file?
+cu-007	coreutils	53	What three counts does wc print by default?
+cu-008	coreutils	53	How do you print only the byte count with wc?
+cu-009	coreutils	63	How do you sort numerically with sort?
+cu-010	coreutils	65	How do you reverse the sort order?
+cu-011	coreutils	62	How do you sort on a specific key field?
+cu-012	coreutils	62	How do you output only unique lines with sort?
+cu-013	coreutils	73	What does uniq -c do?
+cu-014	coreutils	87	How do you select specific fields with cut?
+cu-015	coreutils	86	How do you select specific characters with cut?
+cu-016	coreutils	88	What does the paste command do?
+cu-017	coreutils	90	What does the join command do?
+cu-018	coreutils	59	How do you verify checksums with sha256sum?
+cu-019	coreutils	46	How do you split a file into pieces of N lines?
+cu-020	coreutils	46	How do you split a file by byte size?
+cu-021	coreutils	75	What does the comm command do?
+cu-022	coreutils	97	How do you delete characters with tr?
+cu-023	coreutils	97	How do you squeeze repeated characters with tr?
+cu-024	coreutils	104	What does ls -l show?
+cu-025	coreutils	104	How do you show hidden files with ls?
+cu-026	coreutils	124	How do you copy directories recursively with cp?
+cu-027	coreutils	124	How do you preserve file attributes when copying?
+cu-028	coreutils	138	How do you make mv prompt before overwriting?
+cu-029	coreutils	140	How do you force rm to ignore nonexistent files?
+cu-030	coreutils	145	How do you create a symbolic link with ln?
+cu-031	coreutils	149	How do you create parent directories with mkdir?
+cu-032	coreutils	165	How do you show human-readable sizes with df?
+cu-033	coreutils	170	How do you get a total-only summary with du?
+cu-034	coreutils	218	How do you print the date in UTC?
+cu-035	coreutils	222	What does the nproc command print?
+cu-036	coreutils	254	What does the seq command print?
+cu-037	coreutils	190	How do you append to a file with tee?
+cu-038	coreutils	193	What does the basename command do?
+cu-039	coreutils	242	What does the timeout command do?
+cu-040	coreutils	182	What does the yes command do?
+mk-001	make	13	What does the make utility do?
+mk-002	make	35	What are the parts of a make rule?
+mk-003	make	43	What is a phony target and how do you declare one?
+mk-004	make	143	What does the automatic variable $@ represent?
+mk-005	make	143	What does the automatic variable $< represent?
+mk-006	make	143	What does the automatic variable $^ represent?
+mk-007	make	143	What does the automatic variable $? represent?
+mk-008	make	144	What does the automatic variable $* represent?
+mk-009	make	141	What is a pattern rule?
+mk-010	make	37	What does the wildcard function do?
+mk-011	make	78	What is the difference between = and := variable assignment?
+mk-012	make	79	How does a simply expanded variable behave?
+mk-013	make	81	What does the ?= operator do?
+mk-014	make	86	What does the += operator do?
+mk-015	make	63	How do you run make jobs in parallel?
+mk-016	make	63	What does the -k option do?
+mk-017	make	123	What does the -n option do?
+mk-018	make	127	What does the -B option do?
+mk-019	make	25	What does the include directive do?
+mk-020	make	69	What does the MAKEFLAGS variable do?
+mk-021	make	39	What is VPATH used for?
+mk-022	make	40	What does the vpath directive do?
+mk-023	make	104	What does the patsubst function do?
+mk-024	make	104	What does the subst function do?
+mk-025	make	105	What does the filter function do?
+mk-026	make	106	What does the filter-out function do?
+mk-027	make	106	What does the sort function do?
+mk-028	make	111	What does the foreach function do?
+mk-029	make	109	What does the if function do?
+mk-030	make	111	What does the call function do?
+mk-031	make	119	What does the shell function do?
+mk-032	make	107	What does the dir function do?
+mk-033	make	107	What does the notdir function do?
+mk-034	make	97	How do you write a conditional with ifeq?
+mk-035	make	99	What does ifdef test?
+mk-036	make	36	What is an order-only prerequisite?
+mk-037	make	92	What does the .DEFAULT_GOAL variable do?
+mk-038	make	48	What does .DELETE_ON_ERROR do?
+mk-039	make	59	How do you silence a recipe line?
+mk-040	make	66	How do you tell make to ignore an error in a recipe line?
+mk-041	make	70	What does the export directive do?
+mk-042	make	118	What does the error function do?
+bash-neg-01	bash	-	What does the .PHONY target do?
+bash-neg-02	bash	-	What does the automatic variable $< refer to?
+bash-neg-03	bash	-	How do you verify a file's SHA-256 checksum?
+bash-neg-04	bash	-	What does the patsubst function do?
+cu-neg-01	coreutils	-	How do you declare an associative array?
+cu-neg-02	coreutils	-	What does the trap builtin do?
+cu-neg-03	coreutils	-	What is a pattern rule that uses %?
+cu-neg-04	coreutils	-	How do you run recipes in parallel with -j?
+mk-neg-01	make	-	What does the $RANDOM variable expand to?
+mk-neg-02	make	-	How do you count the words in a file?
+mk-neg-03	make	-	What does the getopts builtin do?
+mk-neg-04	make	-	How do you create a symbolic link?
+bash-neg-05	bash	-	How do you configure nginx as a reverse proxy?
+bash-neg-06	bash	-	What is the time complexity of quicksort?
+bash-neg-07	bash	-	How do you train a convolutional neural network in PyTorch?
+cu-neg-05	coreutils	-	What does the git rebase command do?
+cu-neg-06	coreutils	-	How do you create a Kubernetes Deployment?
+cu-neg-07	coreutils	-	What does the SELECT statement do in SQL?
+mk-neg-05	make	-	How do you deploy a smart contract on Ethereum?
+mk-neg-06	make	-	How do you write a for loop in Python?
+mk-neg-07	make	-	What is the boiling point of water at sea level?
+cu-neg-08	coreutils	-	How do you install a package with apt-get?
+mk-neg-08	make	-	What does the docker run command do?

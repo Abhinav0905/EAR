@@ -1,0 +1,811 @@
+corpus,system,qid,category,answerable,gen,ret,overall,llm_calls,slm_calls,gen_cost,expected_pages,retrieved_top6_pages,page_hit_top6
+bash,simple,bash-001,concept,True,3.0,2.75,2.875,1,0,0.0085,[82],"[16, 80, 80, 66, 16, 103]",0
+bash,simple,bash-002,lookup,True,2.0,2.75,2.375,1,0,0.00536,[54],"[54, 54, 54, 55, 125, 16]",1
+bash,simple,bash-003,lookup,True,3.2,1.25,2.225,1,0,0.00612,[30],"[16, 80, 54, 16, 16, 26]",0
+bash,simple,bash-004,lookup,True,5.0,5.0,5.0,1,0,0.0063,[103],"[103, 104, 31, 30, 30, 29]",1
+bash,simple,bash-005,lookup,True,5.0,5.0,5.0,1,0,0.00589,[116],"[116, 116, 117, 29, 70, 118]",1
+bash,simple,bash-006,concept,True,3.6,2.25,2.925,1,0,0.00588,[12],"[12, 13, 12, 177, 13, 43]",1
+bash,simple,bash-007,concept,True,4.2,4.5,4.35,1,0,0.00831,[84],"[84, 84, 195, 85, 107, 186]",1
+bash,simple,bash-008,concept,True,3.0,4.25,3.625,1,0,0.01046,[65],"[196, 126, 196, 65, 66, 127]",1
+bash,simple,bash-009,lookup,True,4.0,4.25,4.125,1,0,0.00731,[117],"[38, 35, 39, 41, 117, 30]",1
+bash,simple,bash-010,lookup,True,5.0,5.0,5.0,1,0,0.01151,[35],"[37, 38, 35, 39, 36, 38]",1
+bash,simple,bash-011,concept,True,4.4,3.5,3.95,1,0,0.00901,[34],"[35, 34, 39, 29, 38, 179]",1
+bash,simple,bash-012,lookup,True,2.2,3.5,2.85,1,0,0.00723,[42],"[42, 42, 43, 179, 17, 15]",1
+bash,simple,bash-013,concept,True,5.0,5.0,5.0,1,0,0.00865,[43],"[44, 42, 42, 43, 39, 193]",1
+bash,simple,bash-014,concept,True,5.0,5.0,5.0,1,0,0.00854,[27],"[27, 27, 73, 26, 194, 195]",1
+bash,simple,bash-016,concept,True,1.4,1.5,1.45,1,0,0.0071,[50],"[50, 50, 4, 41, 155, 35]",1
+bash,simple,bash-015,lookup,True,3.6,3.5,3.55,1,0,0.00678,[76],"[77, 76, 195, 145, 105, 103]",1
+bash,simple,bash-018,concept,True,4.2,4.5,4.35,1,0,0.00775,[31],"[31, 32, 31, 32, 33, 31]",1
+bash,simple,bash-017,lookup,True,3.6,4.5,4.05,1,0,0.009,[49],"[49, 49, 48, 48, 51, 16]",1
+bash,simple,bash-019,concept,True,5.0,5.0,5.0,1,0,0.00973,[33],"[32, 33, 32, 32, 31, 123]",1
+bash,simple,bash-020,concept,True,4.0,4.5,4.25,1,0,0.01051,[61],"[61, 62, 61, 84, 92, 84]",1
+bash,simple,bash-021,concept,True,3.0,3.0,3.0,1,0,0.00917,[92],"[44, 193, 95, 209, 142, 144]",0
+bash,simple,bash-022,concept,True,2.4,1.75,2.075,1,0,0.00875,[80],"[80, 83, 167, 206, 140, 53]",1
+bash,simple,bash-023,lookup,True,2.6,3.75,3.175,1,0,0.00826,[18],"[18, 18, 114, 116, 192, 192]",1
+bash,simple,bash-024,concept,True,1.6,1.0,1.3,1,0,0.00903,[20],"[17, 20, 117, 17, 3, 168]",1
+bash,simple,bash-026,concept,True,5.0,5.0,5.0,1,0,0.01059,[134],"[134, 55, 196, 25, 134, 7]",1
+bash,simple,bash-027,lookup,True,5.0,5.0,5.0,1,0,0.00659,[92],"[59, 172, 171, 85, 125, 92]",1
+bash,simple,bash-028,concept,True,2.8,4.5,3.65,1,0,0.00752,[66],"[66, 196, 72, 66, 79, 83]",1
+bash,simple,bash-025,concept,True,2.2,2.25,2.225,1,0,0.01077,[75],"[75, 195, 126, 74, 194, 58]",1
+bash,simple,bash-neg-01,negative_cross_doc,False,5.0,2.0,3.5,1,0,0.00751,[],"[25, 77, 112, 208, 123, 186]",
+bash,simple,bash-029,concept,True,5.0,5.0,5.0,1,0,0.0082,[67],"[115, 115, 115, 115, 194, 67]",1
+bash,simple,bash-030,concept,True,2.2,1.25,1.725,1,0,0.00769,[60],"[121, 7, 206, 52, 59, 196]",0
+bash,simple,bash-neg-03,negative_cross_doc,False,5.0,2.0,3.5,1,0,0.00698,[],"[62, 62, 112, 51, 50, 48]",
+bash,simple,bash-neg-02,negative_cross_doc,False,5.0,2.25,3.625,1,0,0.00744,[],"[70, 149, 150, 102, 95, 50]",
+bash,simple,bash-neg-05,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.00584,[],"[47, 183, 139, 48, 14, 138]",
+bash,simple,bash-neg-06,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.00939,[],"[99, 105, 99, 206, 209, 209]",
+bash,simple,bash-neg-04,negative_cross_doc,False,2.0,1.5,1.75,1,0,0.00765,[],"[39, 90, 42, 44, 25, 28]",
+bash,simple,bash-neg-07,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.00662,[],"[56, 14, 69, 19, 57, 184]",
+bash,reranked_simple,bash-001,concept,True,3.8,3.0,3.4,1,0,0.00626,[82],"[16, 16, 80, 66, 197]",0
+bash,reranked_simple,bash-002,lookup,True,2.0,2.5,2.25,1,0,0.006,[54],"[54, 54, 54, 96, 55]",1
+bash,reranked_simple,bash-003,lookup,True,3.8,3.5,3.65,1,0,0.00474,[30],"[16, 54, 80, 26, 16]",0
+bash,reranked_simple,bash-004,lookup,True,5.0,5.0,5.0,1,0,0.00554,[103],"[30, 30, 103, 104, 31]",1
+bash,reranked_simple,bash-007,concept,True,5.0,5.0,5.0,1,0,0.00613,[84],"[84, 195, 107, 85, 111]",1
+bash,reranked_simple,bash-006,concept,True,3.4,2.5,2.95,1,0,0.00611,[12],"[12, 12, 12, 40, 13]",1
+bash,reranked_simple,bash-008,concept,True,2.2,2.0,2.1,1,0,0.00912,[65],"[126, 196, 196, 126, 26]",0
+bash,reranked_simple,bash-005,lookup,True,4.4,4.5,4.45,1,0,0.00563,[116],"[116, 117, 116, 118, 29]",1
+bash,reranked_simple,bash-009,lookup,True,5.0,4.75,4.875,1,0,0.00641,[117],"[38, 33, 30, 117, 39]",1
+bash,reranked_simple,bash-011,concept,True,3.2,2.25,2.725,1,0,0.00652,[34],"[35, 38, 39, 30, 33]",0
+bash,reranked_simple,bash-010,lookup,True,4.2,4.5,4.35,1,0,0.0092,[35],"[35, 192, 38, 34, 39]",1
+bash,reranked_simple,bash-013,concept,True,4.8,4.5,4.65,1,0,0.00734,[43],"[43, 44, 193, 42, 193]",1
+bash,reranked_simple,bash-012,lookup,True,1.8,4.5,3.15,1,0,0.00761,[42],"[42, 43, 165, 44, 34]",1
+bash,reranked_simple,bash-015,lookup,True,5.0,5.0,5.0,1,0,0.00636,[76],"[105, 195, 77, 145, 76]",1
+bash,reranked_simple,bash-014,concept,True,5.0,5.0,5.0,1,0,0.00783,[27],"[73, 27, 74, 27, 194]",1
+bash,reranked_simple,bash-016,concept,True,1.4,1.5,1.45,1,0,0.00541,[50],"[50, 50, 117, 41, 74]",1
+bash,reranked_simple,bash-017,lookup,True,4.4,4.5,4.45,1,0,0.00768,[49],"[49, 16, 49, 48, 51]",1
+bash,reranked_simple,bash-018,concept,True,4.2,4.5,4.35,1,0,0.00699,[31],"[31, 31, 32, 32, 33]",1
+bash,reranked_simple,bash-020,concept,True,3.4,3.75,3.575,1,0,0.00928,[61],"[61, 61, 62, 92, 93]",1
+bash,reranked_simple,bash-019,concept,True,4.2,4.5,4.35,1,0,0.00875,[33],"[123, 32, 32, 32, 31]",0
+bash,reranked_simple,bash-021,concept,True,5.0,4.5,4.75,1,0,0.00763,[92],"[92, 44, 169, 142, 70]",1
+bash,reranked_simple,bash-023,lookup,True,2.6,2.75,2.675,1,0,0.00601,[18],"[18, 191, 192, 17, 192]",1
+bash,reranked_simple,bash-022,concept,True,2.0,1.5,1.75,1,0,0.00952,[80],"[53, 125, 83, 164, 80]",1
+bash,reranked_simple,bash-024,concept,True,5.0,2.0,3.5,1,0,0.00475,[20],"[17, 26, 26, 11, 115]",0
+bash,reranked_simple,bash-026,concept,True,2.2,2.25,2.225,1,0,0.00853,[134],"[55, 196, 132, 25, 7]",0
+bash,reranked_simple,bash-027,lookup,True,5.0,5.0,5.0,1,0,0.00662,[92],"[92, 59, 172, 171, 171]",1
+bash,reranked_simple,bash-025,concept,True,2.2,2.25,2.225,1,0,0.00883,[75],"[126, 75, 195, 126, 58]",1
+bash,reranked_simple,bash-028,concept,True,3.8,4.5,4.15,1,0,0.00588,[66],"[196, 80, 66, 84, 195]",1
+bash,reranked_simple,bash-029,concept,True,3.4,4.5,3.95,1,0,0.00735,[67],"[67, 115, 115, 93, 87]",1
+bash,reranked_simple,bash-neg-03,negative_cross_doc,False,5.0,2.0,3.5,1,0,0.00671,[],"[112, 4, 174, 58, 51]",
+bash,reranked_simple,bash-neg-01,negative_cross_doc,False,5.0,2.0,3.5,1,0,0.00928,[],"[206, 208, 209, 214, 112]",
+bash,reranked_simple,bash-neg-02,negative_cross_doc,False,4.8,2.25,3.525,1,0,0.00691,[],"[29, 97, 95, 95, 150]",
+bash,reranked_simple,bash-030,concept,True,1.8,1.75,1.775,1,0,0.00782,[60],"[195, 121, 7, 60, 58]",1
+bash,reranked_simple,bash-neg-06,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.00659,[],"[16, 105, 16, 206, 75]",
+bash,reranked_simple,bash-neg-05,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.00512,[],"[182, 183, 181, 181, 99]",
+bash,reranked_simple,bash-neg-04,negative_cross_doc,False,2.0,1.75,1.875,1,0,0.00744,[],"[39, 90, 26, 25, 194]",
+bash,reranked_simple,bash-neg-07,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.00694,[],"[6, 182, 184, 56, 19]",
+bash,agentic,bash-001,concept,True,3.8,3.5,3.65,7,0,0.03471,[82],"[16, 80, 80, 66, 16, 103]",0
+bash,agentic,bash-002,lookup,True,2.6,3.0,2.8,3,0,0.01501,[54],"[54, 54, 54, 55, 125, 16]",1
+bash,agentic,bash-003,lookup,True,2.8,2.25,2.525,3,0,0.01667,[30],"[16, 80, 54, 16, 16, 26]",0
+bash,agentic,bash-005,lookup,True,5.0,5.0,5.0,3,0,0.01349,[116],"[116, 116, 117, 29, 70, 118]",1
+bash,agentic,bash-004,lookup,True,5.0,5.0,5.0,3,0,0.01704,[103],"[103, 104, 31, 30, 30, 29]",1
+bash,agentic,bash-006,concept,True,3.6,2.25,2.925,3,0,0.01977,[12],"[12, 13, 12, 177, 13, 43]",1
+bash,agentic,bash-007,concept,True,4.2,5.0,4.6,3,0,0.01702,[84],"[84, 84, 195, 85, 107, 186]",1
+bash,agentic,bash-008,concept,True,2.2,4.5,3.35,3,0,0.02197,[65],"[196, 126, 196, 65, 66, 127]",1
+bash,agentic,bash-012,lookup,True,2.2,2.75,2.475,3,0,0.01775,[42],"[42, 42, 43, 179, 17, 15]",1
+bash,agentic,bash-010,lookup,True,5.0,5.0,5.0,3,0,0.02659,[35],"[37, 38, 35, 39, 36, 38]",1
+bash,agentic,bash-011,concept,True,4.4,3.25,3.825,3,0,0.01833,[34],"[35, 34, 39, 29, 38, 179]",1
+bash,agentic,bash-009,lookup,True,5.0,4.75,4.875,7,0,0.04107,[117],"[38, 35, 39, 41, 117, 30]",1
+bash,agentic,bash-013,concept,True,5.0,5.0,5.0,3,0,0.01879,[43],"[44, 42, 42, 43, 39, 193]",1
+bash,agentic,bash-016,concept,True,1.6,1.5,1.55,3,0,0.01863,[50],"[50, 50, 4, 41, 155, 35]",1
+bash,agentic,bash-014,concept,True,5.0,5.0,5.0,3,0,0.01816,[27],"[27, 27, 73, 26, 194, 195]",1
+bash,agentic,bash-015,lookup,True,5.0,5.0,5.0,3,0,0.01849,[76],"[77, 76, 195, 145, 105, 103]",1
+bash,agentic,bash-017,lookup,True,4.8,5.0,4.9,3,0,0.0196,[49],"[49, 49, 48, 48, 51, 16]",1
+bash,agentic,bash-018,concept,True,4.4,5.0,4.7,5,0,0.02327,[31],"[31, 32, 31, 32, 33, 31]",1
+bash,agentic,bash-019,concept,True,5.0,5.0,5.0,3,0,0.02095,[33],"[32, 33, 32, 32, 31, 123]",1
+bash,agentic,bash-021,concept,True,2.6,2.5,2.55,3,0,0.02379,[92],"[44, 193, 95, 209, 142, 144]",0
+bash,agentic,bash-020,concept,True,2.8,4.5,3.65,3,0,0.02225,[61],"[61, 62, 61, 84, 92, 84]",1
+bash,agentic,bash-023,lookup,True,2.6,3.75,3.175,3,0,0.0196,[18],"[18, 18, 114, 116, 192, 192]",1
+bash,agentic,bash-025,concept,True,1.8,1.5,1.65,3,0,0.02242,[75],"[75, 195, 126, 74, 194, 58]",1
+bash,agentic,bash-026,concept,True,5.0,5.0,5.0,3,0,0.02203,[134],"[134, 55, 196, 25, 134, 7]",1
+bash,agentic,bash-022,concept,True,2.8,1.5,2.15,7,0,0.04442,[80],"[80, 83, 167, 206, 140, 53]",1
+bash,agentic,bash-024,concept,True,3.8,2.25,3.025,5,0,0.03213,[20],"[17, 20, 117, 17, 3, 168]",1
+bash,agentic,bash-027,lookup,True,5.0,5.0,5.0,3,0,0.01761,[92],"[59, 172, 171, 85, 125, 92]",1
+bash,agentic,bash-028,concept,True,2.8,4.5,3.65,3,0,0.01992,[66],"[66, 196, 72, 66, 79, 83]",1
+bash,agentic,bash-029,concept,True,5.0,5.0,5.0,3,0,0.02104,[67],"[115, 115, 115, 115, 194, 67]",1
+bash,agentic,bash-neg-01,negative_cross_doc,False,5.0,2.0,3.5,7,0,0.03582,[],"[25, 77, 112, 208, 123, 186]",
+bash,agentic,bash-neg-02,negative_cross_doc,False,5.0,2.0,3.5,7,0,0.03361,[],"[70, 149, 150, 102, 95, 50]",
+bash,agentic,bash-030,concept,True,2.2,1.5,1.85,7,0,0.04377,[60],"[121, 7, 206, 52, 59, 196]",0
+bash,agentic,bash-neg-03,negative_cross_doc,False,5.0,2.0,3.5,7,0,0.03474,[],"[62, 62, 112, 51, 50, 48]",
+bash,agentic,bash-neg-04,negative_cross_doc,False,2.0,1.75,1.875,7,0,0.03224,[],"[39, 90, 42, 44, 25, 28]",
+bash,agentic,bash-neg-05,negative_out_of_scope,False,5.0,2.0,3.5,7,0,0.03325,[],"[47, 183, 139, 48, 14, 138]",
+bash,agentic,bash-neg-06,negative_out_of_scope,False,5.0,2.0,3.5,7,0,0.0472,[],"[99, 105, 99, 206, 209, 209]",
+bash,agentic,bash-neg-07,negative_out_of_scope,False,5.0,2.0,3.5,7,0,0.03329,[],"[56, 14, 69, 19, 57, 184]",
+bash,self_rag,bash-001,concept,True,3.8,3.0,3.4,4,0,0.00921,[82],[16],0
+bash,self_rag,bash-002,lookup,True,4.6,1.0,2.8,3,0,0.00334,[54],[],0
+bash,self_rag,bash-003,lookup,True,3.2,1.0,2.1,3,0,0.0028,[30],[],0
+bash,self_rag,bash-004,lookup,True,4.8,5.0,4.9,4,0,0.00822,[103],[103],1
+bash,self_rag,bash-006,concept,True,3.4,1.0,2.2,3,0,0.00308,[12],[],0
+bash,self_rag,bash-005,lookup,True,3.2,1.0,2.1,3,0,0.00315,[116],[],0
+bash,self_rag,bash-007,concept,True,5.0,5.0,5.0,4,0,0.01824,[84],"[84, 195, 85, 107, 93]",1
+bash,self_rag,bash-008,concept,True,5.0,5.0,5.0,4,0,0.02281,[65],"[196, 126, 196, 65, 66]",1
+bash,self_rag,bash-011,concept,True,2.8,2.0,2.4,3,0,0.0027,[34],[],0
+bash,self_rag,bash-010,lookup,True,2.2,1.0,1.6,3,0,0.00379,[35],[],0
+bash,self_rag,bash-012,lookup,True,3.4,1.0,2.2,3,0,0.00238,[42],[],0
+bash,self_rag,bash-009,lookup,True,3.4,4.0,3.7,4,0,0.01883,[117],"[38, 35, 39, 41, 117]",1
+bash,self_rag,bash-013,concept,True,2.8,1.0,1.9,3,0,0.00233,[43],[],0
+bash,self_rag,bash-014,concept,True,3.4,1.0,2.2,3,0,0.00311,[27],[],0
+bash,self_rag,bash-015,lookup,True,4.8,4.5,4.65,4,0,0.01828,[76],"[77, 76, 195, 145, 105]",1
+bash,self_rag,bash-017,lookup,True,3.0,1.0,2.0,3,0,0.00464,[49],[],0
+bash,self_rag,bash-016,concept,True,1.6,1.5,1.55,4,0,0.01945,[50],"[50, 50, 4, 41, 155]",1
+bash,self_rag,bash-018,concept,True,3.8,5.0,4.4,4,0,0.01974,[31],"[31, 32, 31, 32, 33]",1
+bash,self_rag,bash-019,concept,True,5.0,5.0,5.0,4,0,0.02126,[33],"[33, 32, 32, 31, 21]",1
+bash,self_rag,bash-022,concept,True,3.4,1.0,2.2,3,0,0.00322,[80],[],0
+bash,self_rag,bash-021,concept,True,3.6,3.0,3.3,4,0,0.01103,[92],[44],0
+bash,self_rag,bash-020,concept,True,2.6,4.5,3.55,4,0,0.02349,[61],"[61, 62, 61, 84, 92]",1
+bash,self_rag,bash-023,lookup,True,2.8,1.0,1.9,3,0,0.00228,[18],[],0
+bash,self_rag,bash-025,concept,True,2.8,1.0,1.9,3,0,0.00242,[75],[],0
+bash,self_rag,bash-027,lookup,True,3.2,1.0,2.1,3,0,0.00222,[92],[],0
+bash,self_rag,bash-024,concept,True,1.8,1.0,1.4,4,0,0.02153,[20],"[17, 20, 117, 17, 3]",1
+bash,self_rag,bash-026,concept,True,5.0,5.0,5.0,4,0,0.01984,[134],"[134, 55, 134, 196]",1
+bash,self_rag,bash-028,concept,True,2.4,3.5,2.95,4,0,0.01939,[66],"[66, 196, 72, 66, 79]",1
+bash,self_rag,bash-029,concept,True,4.2,5.0,4.6,4,0,0.01493,[67],"[115, 115, 67]",1
+bash,self_rag,bash-030,concept,True,2.8,1.0,1.9,3,0,0.00229,[60],[],0
+bash,self_rag,bash-neg-01,negative_cross_doc,False,5.0,2.0,3.5,4,0,0.02009,[],"[25, 77, 112, 208, 123]",
+bash,self_rag,bash-neg-02,negative_cross_doc,False,5.0,2.25,3.625,4,0,0.01805,[],"[70, 149, 150, 102, 95]",
+bash,self_rag,bash-neg-03,negative_cross_doc,False,5.0,5.0,5.0,3,0,0.00329,[],[],
+bash,self_rag,bash-neg-05,negative_out_of_scope,False,5.0,5.0,5.0,3,0,0.00265,[],[],
+bash,self_rag,bash-neg-04,negative_cross_doc,False,2.0,1.75,1.875,4,0,0.01793,[],"[39, 90, 42, 44, 25]",
+bash,self_rag,bash-neg-06,negative_out_of_scope,False,5.0,5.0,5.0,3,0,0.00236,[],[],
+bash,self_rag,bash-neg-07,negative_out_of_scope,False,5.0,5.0,5.0,3,0,0.00288,[],[],
+bash,flare,bash-001,concept,True,3.8,3.25,3.525,3,0,0.01251,[82],"[16, 80, 66, 80, 16, 16]",0
+bash,flare,bash-002,lookup,True,2.0,2.25,2.125,3,0,0.00963,[54],"[54, 54, 54, 55, 125, 111]",1
+bash,flare,bash-003,lookup,True,2.6,2.75,2.675,3,0,0.009,[30],"[54, 54, 16, 54, 16, 55]",0
+bash,flare,bash-005,lookup,True,5.0,5.0,5.0,3,0,0.0103,[116],"[116, 116, 117, 29, 118, 70]",1
+bash,flare,bash-004,lookup,True,5.0,5.0,5.0,3,0,0.01179,[103],"[103, 104, 104, 193, 29, 104]",1
+bash,flare,bash-006,concept,True,3.0,3.0,3.0,3,0,0.01097,[12],"[13, 12, 12, 13, 177, 43]",1
+bash,flare,bash-007,concept,True,4.2,4.5,4.35,3,0,0.01235,[84],"[84, 84, 85, 195, 107, 186]",1
+bash,flare,bash-008,concept,True,5.0,5.0,5.0,3,0,0.01599,[65],"[196, 65, 126, 66, 196, 127]",1
+bash,flare,bash-009,lookup,True,2.8,5.0,3.9,3,0,0.0124,[117],"[117, 38, 192, 35, 39, 37]",1
+bash,flare,bash-010,lookup,True,5.0,5.0,5.0,3,0,0.01559,[35],"[37, 192, 36, 35, 38, 39]",1
+bash,flare,bash-011,concept,True,5.0,5.0,5.0,3,0,0.01424,[34],"[34, 35, 39, 35, 38, 108]",1
+bash,flare,bash-012,lookup,True,2.2,3.25,2.725,3,0,0.01435,[42],"[42, 42, 43, 179, 17, 65]",1
+bash,flare,bash-013,concept,True,5.0,5.0,5.0,3,0,0.01361,[43],"[44, 42, 42, 193, 43, 193]",1
+bash,flare,bash-015,lookup,True,5.0,5.0,5.0,3,0,0.01072,[76],"[77, 76, 195, 105, 145, 105]",1
+bash,flare,bash-014,concept,True,5.0,5.0,5.0,3,0,0.01409,[27],"[27, 73, 27, 74, 27, 194]",1
+bash,flare,bash-016,concept,True,1.4,1.5,1.45,3,0,0.01243,[50],"[50, 50, 4, 110, 57, 28]",1
+bash,flare,bash-018,concept,True,5.0,5.0,5.0,3,0,0.01355,[31],"[31, 32, 31, 33, 32, 31]",1
+bash,flare,bash-017,lookup,True,4.2,4.75,4.475,3,0,0.01346,[49],"[49, 49, 48, 48, 16, 51]",1
+bash,flare,bash-020,concept,True,5.0,5.0,5.0,3,0,0.01604,[61],"[61, 62, 61, 92, 84, 84]",1
+bash,flare,bash-019,concept,True,5.0,5.0,5.0,3,0,0.01441,[33],"[33, 32, 32, 32, 31, 123]",1
+bash,flare,bash-023,lookup,True,3.0,4.25,3.625,3,0,0.01348,[18],"[18, 18, 24, 42, 25, 114]",1
+bash,flare,bash-021,concept,True,5.0,4.25,4.625,3,0,0.01509,[92],"[44, 193, 44, 44, 92, 76]",1
+bash,flare,bash-022,concept,True,4.6,4.5,4.55,3,0,0.01407,[80],"[80, 111, 125, 80, 60, 54]",1
+bash,flare,bash-025,concept,True,4.8,4.5,4.65,3,0,0.01586,[75],"[75, 195, 74, 126, 28, 59]",1
+bash,flare,bash-024,concept,True,4.0,3.5,3.75,3,0,0.01641,[20],"[20, 117, 17, 17, 3, 20]",1
+bash,flare,bash-027,lookup,True,5.0,5.0,5.0,3,0,0.01186,[92],"[59, 92, 172, 85, 125, 171]",1
+bash,flare,bash-028,concept,True,2.4,3.5,2.95,3,0,0.01254,[66],"[66, 196, 72, 83, 123, 66]",1
+bash,flare,bash-026,concept,True,3.8,4.5,4.15,3,0,0.01591,[134],"[134, 55, 25, 127, 56, 16]",1
+bash,flare,bash-neg-01,negative_cross_doc,False,5.0,2.0,3.5,3,0,0.01166,[],"[123, 125, 77, 196, 112, 183]",
+bash,flare,bash-029,concept,True,5.0,5.0,5.0,3,0,0.01323,[67],"[115, 115, 115, 67, 194, 115]",1
+bash,flare,bash-neg-02,negative_cross_doc,False,5.0,2.25,3.625,3,0,0.01103,[],"[48, 50, 149, 70, 33, 95]",
+bash,flare,bash-neg-03,negative_cross_doc,False,5.0,2.0,3.5,3,0,0.01178,[],"[62, 62, 112, 50, 175, 43]",
+bash,flare,bash-030,concept,True,4.2,3.5,3.85,3,0,0.01528,[60],"[121, 7, 52, 60, 60, 11]",1
+bash,flare,bash-neg-06,negative_out_of_scope,False,5.0,2.0,3.5,3,0,0.01368,[],"[99, 105, 16, 104, 105, 4]",
+bash,flare,bash-neg-05,negative_out_of_scope,False,5.0,2.0,3.5,3,0,0.01269,[],"[47, 183, 181, 138, 139, 99]",
+bash,flare,bash-neg-07,negative_out_of_scope,False,5.0,2.0,3.5,3,0,0.01157,[],"[14, 184, 181, 69, 57, 56]",
+bash,flare,bash-neg-04,negative_cross_doc,False,2.0,1.75,1.875,3,0,0.01294,[],"[39, 90, 42, 44, 39, 45]",
+bash,ear_full,bash-001,concept,True,3.2,2.75,2.975,1,6,0.00747,[82],"[16, 80, 80, 66, 16]",0
+bash,ear_full,bash-002,lookup,True,2.0,2.25,2.125,1,6,0.00618,[54],"[54, 54, 54, 55, 125]",1
+bash,ear_full,bash-003,lookup,True,3.2,1.25,2.225,1,6,0.00582,[30],"[16, 80, 54, 16, 16]",0
+bash,ear_full,bash-004,lookup,True,5.0,5.0,5.0,1,6,0.00563,[103],"[103, 104, 31, 30, 30]",1
+bash,ear_full,bash-005,lookup,True,5.0,5.0,5.0,1,6,0.00523,[116],"[116, 116, 117, 29, 70]",1
+bash,ear_full,bash-006,concept,True,3.6,2.25,2.925,1,6,0.00514,[12],"[12, 13, 12, 177, 13]",1
+bash,ear_full,bash-007,concept,True,4.2,5.0,4.6,1,6,0.00731,[84],"[84, 84, 195, 85, 107]",1
+bash,ear_full,bash-008,concept,True,5.0,5.0,5.0,1,6,0.0097,[65],"[196, 126, 196, 65, 66]",1
+bash,ear_full,bash-009,lookup,True,3.4,4.0,3.7,1,6,0.00639,[117],"[38, 35, 39, 41, 117]",1
+bash,ear_full,bash-011,concept,True,5.0,5.0,5.0,1,6,0.00848,[34],"[35, 34, 39, 29, 38]",1
+bash,ear_full,bash-013,concept,True,5.0,5.0,5.0,1,6,0.00752,[43],"[44, 42, 42, 43, 39]",1
+bash,ear_full,bash-010,lookup,True,5.0,5.0,5.0,1,6,0.01112,[35],"[37, 38, 35, 39, 36]",1
+bash,ear_full,bash-012,lookup,True,2.6,4.5,3.55,1,6,0.00638,[42],"[42, 42, 43, 179, 17]",1
+bash,ear_full,bash-014,concept,True,5.0,5.0,5.0,1,6,0.0077,[27],"[27, 27, 73, 26, 194]",1
+bash,ear_full,bash-015,lookup,True,4.8,4.5,4.65,1,6,0.00588,[76],"[77, 76, 195, 145, 105]",1
+bash,ear_full,bash-018,concept,True,4.4,5.0,4.7,1,6,0.00681,[31],"[31, 32, 31, 32, 33]",1
+bash,ear_full,bash-017,lookup,True,4.4,4.25,4.325,1,6,0.00774,[49],"[49, 49, 48, 48, 51]",1
+bash,ear_full,bash-016,concept,True,1.6,1.5,1.55,1,6,0.0065,[50],"[50, 50, 4, 41, 155]",1
+bash,ear_full,bash-019,concept,True,5.0,5.0,5.0,1,6,0.00887,[33],"[32, 33, 32, 32, 31]",1
+bash,ear_full,bash-021,concept,True,2.4,2.25,2.325,1,6,0.00907,[92],"[44, 193, 95, 209, 142]",0
+bash,ear_full,bash-023,lookup,True,4.0,4.5,4.25,1,6,0.00685,[18],"[18, 18, 114, 116, 192]",1
+bash,ear_full,bash-022,concept,True,2.8,2.25,2.525,1,6,0.00735,[80],"[80, 83, 167, 206, 140]",1
+bash,ear_full,bash-020,concept,True,2.6,4.5,3.55,1,6,0.00982,[61],"[61, 62, 61, 84, 92]",1
+bash,ear_full,bash-024,concept,True,1.8,1.0,1.4,1,6,0.00797,[20],"[17, 20, 117, 17, 3]",1
+bash,ear_full,bash-027,lookup,True,5.0,4.5,4.75,1,6,0.00633,[92],"[59, 172, 171, 85, 125]",0
+bash,ear_full,bash-028,concept,True,2.4,3.5,2.95,1,6,0.00655,[66],"[66, 196, 72, 66, 79]",1
+bash,ear_full,bash-026,concept,True,5.0,5.0,5.0,1,6,0.00966,[134],"[134, 55, 196, 25, 134]",1
+bash,ear_full,bash-025,concept,True,2.2,2.25,2.225,1,6,0.01005,[75],"[75, 195, 126, 74, 194]",1
+bash,ear_full,bash-029,concept,True,2.6,2.25,2.425,1,6,0.00581,[67],"[115, 115, 115, 115, 194]",0
+bash,ear_full,bash-neg-02,negative_cross_doc,False,5.0,2.25,3.625,1,6,0.00568,[],"[70, 149, 150, 102, 95]",
+bash,ear_full,bash-neg-01,negative_cross_doc,False,5.0,2.0,3.5,1,6,0.00666,[],"[25, 77, 112, 208, 123]",
+bash,ear_full,bash-neg-03,negative_cross_doc,False,5.0,2.0,3.5,1,6,0.00625,[],"[62, 62, 112, 51, 50]",
+bash,ear_full,bash-030,concept,True,2.4,1.5,1.95,1,6,0.00705,[60],"[121, 7, 206, 52, 59]",0
+bash,ear_full,bash-neg-04,negative_cross_doc,False,2.0,1.5,1.75,1,6,0.007,[],"[39, 90, 42, 44, 25]",
+bash,ear_full,bash-neg-06,negative_out_of_scope,False,5.0,2.0,3.5,1,6,0.00712,[],"[99, 105, 99, 206, 209]",
+bash,ear_full,bash-neg-05,negative_out_of_scope,False,5.0,2.0,3.5,1,6,0.00501,[],"[47, 183, 139, 48, 14]",
+bash,ear_full,bash-neg-07,negative_out_of_scope,False,5.0,2.0,3.5,1,6,0.00675,[],"[56, 14, 69, 19, 57]",
+coreutils,simple,cu-005,lookup,True,5.0,1.0,3.0,1,0,0.00588,[41],"[27, 35, 36, 35, 53, 38]",0
+coreutils,simple,cu-004,concept,True,5.0,5.0,5.0,1,0,0.00817,[25],"[25, 25, 97, 97, 101, 291]",1
+coreutils,simple,cu-001,lookup,True,5.0,1.25,3.125,1,0,0.00624,[12],"[1, 23, 11, 309, 4, 2]",0
+coreutils,simple,cu-002,lookup,True,3.4,1.25,2.325,1,0,0.00655,[24],"[24, 45, 44, 179, 45, 44]",1
+coreutils,simple,cu-003,lookup,True,3.0,1.5,2.25,1,0,0.00564,[24],"[172, 24, 173, 38, 12, 45]",1
+coreutils,simple,cu-007,lookup,True,5.0,5.0,5.0,1,0,0.00538,[53],"[53, 53, 54, 53, 35, 38]",1
+coreutils,simple,cu-008,lookup,True,5.0,5.0,5.0,1,0,0.00589,[53],"[53, 53, 53, 54, 42, 54]",1
+coreutils,simple,cu-006,lookup,True,5.0,5.0,5.0,1,0,0.00946,[43],"[45, 43, 44, 43, 43, 42]",1
+coreutils,simple,cu-010,lookup,True,4.4,3.5,3.95,1,0,0.0062,[65],"[110, 284, 64, 65, 70, 63]",1
+coreutils,simple,cu-009,lookup,True,2.2,2.75,2.475,1,0,0.01046,[63],"[64, 63, 65, 70, 68, 69]",1
+coreutils,simple,cu-012,lookup,True,5.0,5.0,5.0,1,0,0.00748,[62],"[72, 73, 288, 62, 68, 72]",1
+coreutils,simple,cu-011,lookup,True,5.0,4.75,4.875,1,0,0.01223,[62],"[69, 66, 92, 69, 93, 70]",0
+coreutils,simple,cu-013,lookup,True,3.2,4.25,3.725,1,0,0.00646,[73],"[72, 73, 73, 72, 74, 288]",1
+coreutils,simple,cu-014,lookup,True,5.0,5.0,5.0,1,0,0.01101,[87],"[86, 87, 91, 288, 88, 90]",1
+coreutils,simple,cu-015,lookup,True,5.0,5.0,5.0,1,0,0.00913,[86],"[86, 99, 97, 101, 288, 86]",1
+coreutils,simple,cu-016,concept,True,5.0,5.0,5.0,1,0,0.00888,[88],"[89, 88, 89, 88, 120, 123]",1
+coreutils,simple,cu-017,concept,True,5.0,5.0,5.0,1,0,0.00983,[90],"[90, 87, 94, 92, 95, 93]",1
+coreutils,simple,cu-018,lookup,True,2.2,2.0,2.1,1,0,0.00895,[59],"[60, 191, 61, 58, 306, 55]",0
+coreutils,simple,cu-019,lookup,True,4.0,3.5,3.75,1,0,0.00943,[46],"[46, 317, 49, 47, 50, 41]",1
+coreutils,simple,cu-020,lookup,True,2.2,2.25,2.225,1,0,0.01003,[46],"[46, 317, 46, 47, 178, 169]",1
+coreutils,simple,cu-021,concept,True,5.0,5.0,5.0,1,0,0.00954,[75],"[290, 76, 75, 290, 292, 75]",1
+coreutils,simple,cu-022,lookup,True,4.2,4.25,4.225,1,0,0.00945,[97],"[101, 101, 97, 291, 100, 98]",1
+coreutils,simple,cu-023,lookup,True,3.8,5.0,4.4,1,0,0.00949,[97],"[97, 100, 101, 100, 100, 291]",1
+coreutils,simple,cu-024,lookup,True,2.8,1.75,2.275,1,0,0.00745,[104],"[104, 106, 104, 110, 112, 108]",1
+coreutils,simple,cu-025,lookup,True,4.2,4.5,4.35,1,0,0.00736,[104],"[106, 105, 104, 105, 108, 104]",1
+coreutils,simple,cu-026,lookup,True,3.4,4.75,4.075,1,0,0.00897,[124],"[124, 121, 120, 122, 122, 121]",1
+coreutils,simple,cu-027,lookup,True,5.0,5.0,5.0,1,0,0.0103,[124],"[123, 124, 123, 121, 155, 157]",1
+coreutils,simple,cu-028,lookup,True,5.0,5.0,5.0,1,0,0.00819,[138],"[137, 137, 138, 137, 138, 143]",1
+coreutils,simple,cu-029,lookup,True,5.0,5.0,5.0,1,0,0.00696,[140],"[140, 153, 302, 141, 194, 105]",1
+coreutils,simple,cu-030,lookup,True,3.0,4.0,3.5,1,0,0.00818,[145],"[145, 145, 146, 146, 147, 148]",1
+coreutils,simple,cu-031,lookup,True,3.0,4.5,3.75,1,0,0.00921,[149],"[149, 149, 150, 135, 263, 151]",1
+coreutils,simple,cu-032,lookup,True,5.0,5.0,5.0,1,0,0.00838,[165],"[169, 165, 166, 164, 108, 166]",1
+coreutils,simple,cu-033,lookup,True,4.0,2.5,3.25,1,0,0.00525,[170],"[170, 169, 170, 169, 168, 171]",1
+coreutils,simple,cu-034,lookup,True,5.0,5.0,5.0,1,0,0.00991,[218],"[272, 220, 218, 267, 221, 36]",1
+coreutils,simple,cu-035,lookup,True,3.2,4.25,3.725,1,0,0.00949,[222],"[223, 315, 8, 222, 314, 313]",1
+coreutils,simple,cu-037,lookup,True,4.2,4.75,4.475,1,0,0.00802,[190],"[191, 190, 190, 191, 307, 191]",1
+coreutils,simple,cu-036,concept,True,5.0,5.0,5.0,1,0,0.00865,[254],"[255, 254, 9, 256, 254, 48]",1
+coreutils,simple,cu-038,concept,True,4.4,5.0,4.7,1,0,0.00977,[193],"[193, 193, 194, 199, 307, 307]",1
+coreutils,simple,cu-039,concept,True,4.8,4.5,4.65,1,0,0.00878,[242],"[242, 244, 243, 243, 243, 9]",1
+coreutils,simple,cu-neg-01,negative_cross_doc,False,5.0,2.0,3.5,1,0,0.00669,[],"[97, 187, 311, 100, 133, 186]",
+coreutils,simple,cu-neg-02,negative_cross_doc,False,5.0,2.0,3.5,1,0,0.00784,[],"[307, 97, 20, 100, 291, 307]",
+coreutils,simple,cu-040,concept,True,2.8,1.0,1.9,1,0,0.00595,[182],"[211, 240, 183, 205, 319, 20]",0
+coreutils,simple,cu-neg-03,negative_cross_doc,False,5.0,2.0,3.5,1,0,0.00766,[],"[174, 215, 174, 180, 214, 214]",
+coreutils,simple,cu-neg-04,negative_cross_doc,False,5.0,2.0,3.5,1,0,0.00667,[],"[37, 192, 47, 35, 222, 48]",
+coreutils,simple,cu-neg-05,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.00743,[],"[139, 304, 135, 126, 285, 121]",
+coreutils,simple,cu-neg-06,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.00616,[],"[296, 284, 297, 254, 254, 100]",
+coreutils,simple,cu-neg-07,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.00723,[],"[189, 90, 96, 95, 186, 187]",
+coreutils,simple,cu-neg-08,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.00581,[],"[134, 134, 135, 134, 160, 137]",
+coreutils,reranked_simple,cu-001,lookup,True,5.0,5.0,5.0,1,0,0.00511,[12],"[23, 11, 4, 12, 1]",1
+coreutils,reranked_simple,cu-004,concept,True,4.0,4.5,4.25,1,0,0.00734,[25],"[25, 25, 42, 290, 291]",1
+coreutils,reranked_simple,cu-003,lookup,True,3.0,1.5,2.25,1,0,0.00559,[24],"[24, 38, 67, 68, 245]",1
+coreutils,reranked_simple,cu-002,lookup,True,1.4,1.5,1.45,1,0,0.00537,[24],"[24, 24, 43, 38, 179]",1
+coreutils,reranked_simple,cu-005,lookup,True,1.8,1.5,1.65,1,0,0.00666,[41],"[35, 53, 36, 42, 38]",0
+coreutils,reranked_simple,cu-006,lookup,True,5.0,5.0,5.0,1,0,0.008,[43],"[44, 43, 44, 43, 43]",1
+coreutils,reranked_simple,cu-007,lookup,True,5.0,5.0,5.0,1,0,0.00488,[53],"[53, 53, 54, 53, 35]",1
+coreutils,reranked_simple,cu-008,lookup,True,4.8,4.5,4.65,1,0,0.00532,[53],"[53, 53, 53, 54, 54]",1
+coreutils,reranked_simple,cu-010,lookup,True,4.2,3.0,3.6,1,0,0.00505,[65],"[110, 276, 62, 111, 62]",0
+coreutils,reranked_simple,cu-009,lookup,True,4.2,5.0,4.6,1,0,0.00864,[63],"[63, 69, 277, 64, 65]",1
+coreutils,reranked_simple,cu-012,lookup,True,5.0,5.0,5.0,1,0,0.00731,[62],"[68, 288, 73, 62, 74]",1
+coreutils,reranked_simple,cu-013,lookup,True,4.6,4.25,4.425,1,0,0.00638,[73],"[288, 72, 68, 73, 291]",1
+coreutils,reranked_simple,cu-011,lookup,True,5.0,5.0,5.0,1,0,0.00947,[62],"[69, 92, 62, 63, 67]",1
+coreutils,reranked_simple,cu-014,lookup,True,5.0,5.0,5.0,1,0,0.01038,[87],"[288, 86, 87, 87, 5]",1
+coreutils,reranked_simple,cu-015,lookup,True,4.2,5.0,4.6,1,0,0.00961,[86],"[288, 86, 86, 87, 99]",1
+coreutils,reranked_simple,cu-016,concept,True,4.2,4.5,4.35,1,0,0.00885,[88],"[120, 88, 89, 89, 288]",1
+coreutils,reranked_simple,cu-017,concept,True,5.0,5.0,5.0,1,0,0.009,[90],"[93, 92, 92, 90, 92]",1
+coreutils,reranked_simple,cu-019,lookup,True,5.0,5.0,5.0,1,0,0.00804,[46],"[46, 317, 47, 47, 46]",1
+coreutils,reranked_simple,cu-018,lookup,True,2.6,2.25,2.425,1,0,0.00818,[59],"[61, 60, 191, 58, 191]",0
+coreutils,reranked_simple,cu-020,lookup,True,2.2,2.5,2.35,1,0,0.00835,[46],"[46, 46, 178, 168, 47]",1
+coreutils,reranked_simple,cu-021,concept,True,5.0,5.0,5.0,1,0,0.0093,[75],"[75, 75, 290, 290, 292]",1
+coreutils,reranked_simple,cu-022,lookup,True,4.2,4.75,4.475,1,0,0.00838,[97],"[100, 101, 97, 101, 290]",1
+coreutils,reranked_simple,cu-024,lookup,True,2.8,2.75,2.775,1,0,0.00719,[104],"[104, 106, 104, 118, 112]",1
+coreutils,reranked_simple,cu-023,lookup,True,5.0,5.0,5.0,1,0,0.00854,[97],"[100, 97, 101, 290, 97]",1
+coreutils,reranked_simple,cu-025,lookup,True,5.0,5.0,5.0,1,0,0.00632,[104],"[110, 104, 106, 112, 104]",1
+coreutils,reranked_simple,cu-026,lookup,True,5.0,5.0,5.0,1,0,0.00712,[124],"[124, 120, 120, 122, 120]",1
+coreutils,reranked_simple,cu-029,lookup,True,5.0,5.0,5.0,1,0,0.00554,[140],"[140, 139, 153, 153, 20]",1
+coreutils,reranked_simple,cu-028,lookup,True,5.0,5.0,5.0,1,0,0.00645,[138],"[137, 137, 138, 143, 137]",1
+coreutils,reranked_simple,cu-027,lookup,True,4.8,5.0,4.9,1,0,0.00783,[124],"[121, 134, 123, 121, 124]",1
+coreutils,reranked_simple,cu-030,lookup,True,3.0,3.0,3.0,1,0,0.0076,[145],"[147, 145, 145, 148, 122]",1
+coreutils,reranked_simple,cu-032,lookup,True,5.0,5.0,5.0,1,0,0.00752,[165],"[169, 165, 166, 15, 13]",1
+coreutils,reranked_simple,cu-031,lookup,True,2.4,3.25,2.825,1,0,0.00784,[149],"[150, 149, 135, 263, 6]",1
+coreutils,reranked_simple,cu-033,lookup,True,4.2,2.75,3.475,1,0,0.00649,[170],"[170, 169, 170, 168, 172]",1
+coreutils,reranked_simple,cu-034,lookup,True,5.0,5.0,5.0,1,0,0.00873,[218],"[220, 221, 221, 213, 219]",0
+coreutils,reranked_simple,cu-035,lookup,True,2.4,4.25,3.325,1,0,0.00825,[222],"[8, 223, 222, 315, 315]",1
+coreutils,reranked_simple,cu-036,concept,True,4.4,4.5,4.45,1,0,0.0064,[254],"[254, 256, 255, 9, 49]",1
+coreutils,reranked_simple,cu-037,lookup,True,5.0,5.0,5.0,1,0,0.00659,[190],"[190, 190, 191, 191, 7]",1
+coreutils,reranked_simple,cu-038,concept,True,2.8,5.0,3.9,1,0,0.00851,[193],"[193, 194, 32, 193, 307]",1
+coreutils,reranked_simple,cu-039,concept,True,5.0,4.5,4.75,1,0,0.00689,[242],"[242, 243, 244, 243, 9]",1
+coreutils,reranked_simple,cu-040,concept,True,4.6,4.5,4.55,1,0,0.00533,[182],"[240, 182, 183, 20, 308]",1
+coreutils,reranked_simple,cu-neg-01,negative_cross_doc,False,5.0,2.0,3.5,1,0,0.00781,[],"[187, 97, 302, 303, 303]",
+coreutils,reranked_simple,cu-neg-02,negative_cross_doc,False,5.0,1.75,3.375,1,0,0.008,[],"[20, 16, 245, 16, 302]",
+coreutils,reranked_simple,cu-neg-04,negative_cross_doc,False,5.0,2.0,3.5,1,0,0.00725,[],"[37, 35, 192, 68, 192]",
+coreutils,reranked_simple,cu-neg-03,negative_cross_doc,False,5.0,2.0,3.5,1,0,0.00749,[],"[175, 174, 214, 216, 214]",
+coreutils,reranked_simple,cu-neg-05,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.00665,[],"[120, 285, 197, 134, 302]",
+coreutils,reranked_simple,cu-neg-06,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.00701,[],"[254, 127, 260, 31, 316]",
+coreutils,reranked_simple,cu-neg-07,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.00593,[],"[87, 104, 189, 65, 165]",
+coreutils,reranked_simple,cu-neg-08,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.0048,[],"[134, 135, 134, 135, 135]",
+coreutils,agentic,cu-002,lookup,True,1.0,1.5,1.25,3,0,0.01646,[24],"[24, 45, 44, 179, 45, 44]",1
+coreutils,agentic,cu-004,concept,True,5.0,5.0,5.0,3,0,0.01903,[25],"[25, 25, 97, 97, 101, 291]",1
+coreutils,agentic,cu-003,lookup,True,3.8,1.5,2.65,3,0,0.01848,[24],"[172, 24, 173, 38, 12, 45]",1
+coreutils,agentic,cu-001,lookup,True,5.0,1.0,3.0,7,0,0.04101,[12],"[1, 23, 11, 309, 4, 2]",0
+coreutils,agentic,cu-005,lookup,True,2.8,1.0,1.9,7,0,0.03679,[41],"[27, 35, 36, 35, 53, 38]",0
+coreutils,agentic,cu-007,lookup,True,5.0,5.0,5.0,3,0,0.01739,[53],"[53, 53, 54, 53, 35, 38]",1
+coreutils,agentic,cu-008,lookup,True,5.0,5.0,5.0,3,0,0.01285,[53],"[53, 53, 53, 54, 42, 54]",1
+coreutils,agentic,cu-006,lookup,True,5.0,5.0,5.0,3,0,0.01753,[43],"[45, 43, 44, 43, 43, 42]",1
+coreutils,agentic,cu-010,lookup,True,4.8,3.75,4.275,3,0,0.01745,[65],"[110, 284, 64, 65, 70, 63]",1
+coreutils,agentic,cu-012,lookup,True,5.0,5.0,5.0,3,0,0.01747,[62],"[72, 73, 288, 62, 68, 72]",1
+coreutils,agentic,cu-011,lookup,True,5.0,4.75,4.875,3,0,0.02168,[62],"[69, 66, 92, 69, 93, 70]",0
+coreutils,agentic,cu-013,lookup,True,3.2,4.25,3.725,3,0,0.01441,[73],"[72, 73, 73, 72, 74, 288]",1
+coreutils,agentic,cu-009,lookup,True,1.8,2.75,2.275,3,0,0.02164,[63],"[64, 63, 65, 70, 68, 69]",1
+coreutils,agentic,cu-014,lookup,True,5.0,5.0,5.0,3,0,0.02374,[87],"[86, 87, 91, 288, 88, 90]",1
+coreutils,agentic,cu-016,concept,True,5.0,5.0,5.0,3,0,0.02252,[88],"[89, 88, 89, 88, 120, 123]",1
+coreutils,agentic,cu-015,lookup,True,5.0,5.0,5.0,3,0,0.02203,[86],"[86, 99, 97, 101, 288, 86]",1
+coreutils,agentic,cu-017,concept,True,5.0,5.0,5.0,3,0,0.01759,[90],"[90, 87, 94, 92, 95, 93]",1
+coreutils,agentic,cu-021,concept,True,5.0,5.0,5.0,3,0,0.01699,[75],"[290, 76, 75, 290, 292, 75]",1
+coreutils,agentic,cu-019,lookup,True,2.2,2.75,2.475,3,0,0.02111,[46],"[46, 317, 49, 47, 50, 41]",1
+coreutils,agentic,cu-020,lookup,True,2.2,2.25,2.225,3,0,0.02198,[46],"[46, 317, 46, 47, 178, 169]",1
+coreutils,agentic,cu-018,lookup,True,3.0,2.25,2.625,7,0,0.04067,[59],"[60, 191, 61, 58, 306, 55]",0
+coreutils,agentic,cu-022,lookup,True,3.2,4.0,3.6,3,0,0.01924,[97],"[101, 101, 97, 291, 100, 98]",1
+coreutils,agentic,cu-023,lookup,True,4.4,5.0,4.7,3,0,0.02281,[97],"[97, 100, 101, 100, 100, 291]",1
+coreutils,agentic,cu-024,lookup,True,2.8,1.75,2.275,3,0,0.01667,[104],"[104, 106, 104, 110, 112, 108]",1
+coreutils,agentic,cu-026,lookup,True,4.4,5.0,4.7,3,0,0.01835,[124],"[124, 121, 120, 122, 122, 121]",1
+coreutils,agentic,cu-025,lookup,True,3.6,2.75,3.175,3,0,0.01949,[104],"[106, 105, 104, 105, 108, 104]",1
+coreutils,agentic,cu-027,lookup,True,4.2,4.25,4.225,3,0,0.02229,[124],"[123, 124, 123, 121, 155, 157]",1
+coreutils,agentic,cu-029,lookup,True,5.0,5.0,5.0,3,0,0.01841,[140],"[140, 153, 302, 141, 194, 105]",1
+coreutils,agentic,cu-028,lookup,True,5.0,5.0,5.0,3,0,0.01785,[138],"[137, 137, 138, 137, 138, 143]",1
+coreutils,agentic,cu-032,lookup,True,5.0,5.0,5.0,3,0,0.01877,[165],"[169, 165, 166, 164, 108, 166]",1
+coreutils,agentic,cu-031,lookup,True,3.0,4.5,3.75,3,0,0.02095,[149],"[149, 149, 150, 135, 263, 151]",1
+coreutils,agentic,cu-030,lookup,True,3.0,4.0,3.5,3,0,0.01724,[145],"[145, 145, 146, 146, 147, 148]",1
+coreutils,agentic,cu-033,lookup,True,5.0,5.0,5.0,3,0,0.01526,[170],"[170, 169, 170, 169, 168, 171]",1
+coreutils,agentic,cu-034,lookup,True,4.2,4.5,4.35,3,0,0.02319,[218],"[272, 220, 218, 267, 221, 36]",1
+coreutils,agentic,cu-037,lookup,True,5.0,5.0,5.0,3,0,0.01749,[190],"[191, 190, 190, 191, 307, 191]",1
+coreutils,agentic,cu-036,concept,True,5.0,5.0,5.0,3,0,0.01888,[254],"[255, 254, 9, 256, 254, 48]",1
+coreutils,agentic,cu-035,lookup,True,2.8,3.75,3.275,3,0,0.02493,[222],"[223, 315, 8, 222, 314, 313]",1
+coreutils,agentic,cu-038,concept,True,4.4,4.75,4.575,3,0,0.02339,[193],"[193, 193, 194, 199, 307, 307]",1
+coreutils,agentic,cu-039,concept,True,5.0,5.0,5.0,3,0,0.02195,[242],"[242, 244, 243, 243, 243, 9]",1
+coreutils,agentic,cu-040,concept,True,3.2,1.25,2.225,7,0,0.04027,[182],"[211, 240, 183, 205, 319, 20]",0
+coreutils,agentic,cu-neg-01,negative_cross_doc,False,5.0,2.0,3.5,7,0,0.03766,[],"[97, 187, 311, 100, 133, 186]",
+coreutils,agentic,cu-neg-02,negative_cross_doc,False,5.0,2.0,3.5,7,0,0.03722,[],"[307, 97, 20, 100, 291, 307]",
+coreutils,agentic,cu-neg-03,negative_cross_doc,False,5.0,2.0,3.5,7,0,0.03846,[],"[174, 215, 174, 180, 214, 214]",
+coreutils,agentic,cu-neg-04,negative_cross_doc,False,5.0,2.0,3.5,7,0,0.03577,[],"[37, 192, 47, 35, 222, 48]",
+coreutils,agentic,cu-neg-05,negative_out_of_scope,False,5.0,2.0,3.5,7,0,0.03435,[],"[139, 304, 135, 126, 285, 121]",
+coreutils,agentic,cu-neg-06,negative_out_of_scope,False,5.0,2.0,3.5,7,0,0.03738,[],"[296, 284, 297, 254, 254, 100]",
+coreutils,agentic,cu-neg-07,negative_out_of_scope,False,5.0,2.0,3.5,7,0,0.04054,[],"[189, 90, 96, 95, 186, 187]",
+coreutils,agentic,cu-neg-08,negative_out_of_scope,False,5.0,2.0,3.5,7,0,0.03352,[],"[134, 134, 135, 134, 160, 137]",
+coreutils,self_rag,cu-002,lookup,True,3.6,1.0,2.3,3,0,0.00244,[24],[],0
+coreutils,self_rag,cu-005,lookup,True,5.0,1.0,3.0,3,0,0.00237,[41],[],0
+coreutils,self_rag,cu-004,concept,True,3.4,1.0,2.2,3,0,0.00255,[25],[],0
+coreutils,self_rag,cu-001,lookup,True,5.0,2.25,3.625,4,0,0.01803,[12],"[1, 23, 11, 309, 4]",0
+coreutils,self_rag,cu-003,lookup,True,5.0,1.5,3.25,4,0,0.01572,[24],"[172, 24, 173, 38, 12]",1
+coreutils,self_rag,cu-008,lookup,True,2.8,1.0,1.9,3,0,0.00242,[53],[],0
+coreutils,self_rag,cu-006,lookup,True,3.6,1.0,2.3,3,0,0.00332,[43],[],0
+coreutils,self_rag,cu-007,lookup,True,5.0,5.0,5.0,4,0,0.01724,[53],"[53, 53, 54, 53, 35]",1
+coreutils,self_rag,cu-009,lookup,True,3.6,1.0,2.3,3,0,0.00353,[63],[],0
+coreutils,self_rag,cu-010,lookup,True,3.2,1.0,2.1,3,0,0.00231,[65],[],0
+coreutils,self_rag,cu-012,lookup,True,3.0,1.0,2.0,3,0,0.00325,[62],[],0
+coreutils,self_rag,cu-013,lookup,True,3.2,1.0,2.1,3,0,0.00262,[73],[],0
+coreutils,self_rag,cu-011,lookup,True,4.2,3.5,3.85,4,0,0.02361,[62],"[69, 66, 92, 69, 93]",0
+coreutils,self_rag,cu-014,lookup,True,3.2,1.0,2.1,3,0,0.00452,[87],[],0
+coreutils,self_rag,cu-015,lookup,True,3.2,1.0,2.1,3,0,0.0052,[86],[],0
+coreutils,self_rag,cu-016,concept,True,2.8,1.0,1.9,3,0,0.00265,[88],[],0
+coreutils,self_rag,cu-017,concept,True,3.2,1.0,2.1,3,0,0.00268,[90],[],0
+coreutils,self_rag,cu-019,lookup,True,3.2,1.0,2.1,3,0,0.00271,[46],[],0
+coreutils,self_rag,cu-018,lookup,True,3.4,2.0,2.7,3,0,0.00333,[59],[],0
+coreutils,self_rag,cu-020,lookup,True,3.0,1.0,2.0,3,0,0.00323,[46],[],0
+coreutils,self_rag,cu-021,concept,True,2.8,2.0,2.4,3,0,0.00236,[75],[],0
+coreutils,self_rag,cu-022,lookup,True,3.6,1.0,2.3,3,0,0.00375,[97],[],0
+coreutils,self_rag,cu-023,lookup,True,3.2,1.0,2.1,3,0,0.00436,[97],[],0
+coreutils,self_rag,cu-024,lookup,True,2.8,1.0,1.9,3,0,0.00265,[104],[],0
+coreutils,self_rag,cu-025,lookup,True,3.6,1.0,2.3,3,0,0.00335,[104],[],0
+coreutils,self_rag,cu-026,lookup,True,3.6,1.0,2.3,3,0,0.0042,[124],[],0
+coreutils,self_rag,cu-028,lookup,True,3.8,1.0,2.4,3,0,0.00311,[138],[],0
+coreutils,self_rag,cu-027,lookup,True,2.8,1.0,1.9,3,0,0.00383,[124],[],0
+coreutils,self_rag,cu-029,lookup,True,3.6,1.0,2.3,3,0,0.00321,[140],[],0
+coreutils,self_rag,cu-030,lookup,True,3.4,2.0,2.7,3,0,0.00307,[145],[],0
+coreutils,self_rag,cu-031,lookup,True,3.6,1.0,2.3,3,0,0.00349,[149],[],0
+coreutils,self_rag,cu-032,lookup,True,2.8,1.0,1.9,3,0,0.00358,[165],[],0
+coreutils,self_rag,cu-034,lookup,True,2.6,1.0,1.8,3,0,0.00328,[218],[],0
+coreutils,self_rag,cu-035,lookup,True,3.4,2.0,2.7,3,0,0.00254,[222],[],0
+coreutils,self_rag,cu-033,lookup,True,3.4,2.5,2.95,4,0,0.01722,[170],"[170, 169, 170, 169, 168]",1
+coreutils,self_rag,cu-036,concept,True,4.6,4.5,4.55,4,0,0.00998,[254],[254],1
+coreutils,self_rag,cu-037,lookup,True,3.8,1.0,2.4,3,0,0.00349,[190],[],0
+coreutils,self_rag,cu-038,concept,True,3.4,2.0,2.7,3,0,0.00239,[193],[],0
+coreutils,self_rag,cu-040,concept,True,3.2,1.0,2.1,3,0,0.00245,[182],[],0
+coreutils,self_rag,cu-039,concept,True,3.4,1.0,2.2,3,0,0.00326,[242],[],0
+coreutils,self_rag,cu-neg-01,negative_cross_doc,False,5.0,5.0,5.0,3,0,0.00308,[],[],
+coreutils,self_rag,cu-neg-02,negative_cross_doc,False,5.0,1.25,3.125,4,0,0.02016,[],"[307, 97, 20, 100, 291]",
+coreutils,self_rag,cu-neg-05,negative_out_of_scope,False,1.4,5.0,3.2,3,0,0.00331,[],[],
+coreutils,self_rag,cu-neg-03,negative_cross_doc,False,5.0,2.0,3.5,4,0,0.02122,[],"[174, 215, 174, 180, 214]",
+coreutils,self_rag,cu-neg-06,negative_out_of_scope,False,5.0,2.0,3.5,4,0,0.01726,[],"[296, 284, 297, 254, 254]",
+coreutils,self_rag,cu-neg-04,negative_cross_doc,False,5.0,2.0,3.5,4,0,0.01929,[],"[37, 192, 47, 35, 222]",
+coreutils,self_rag,cu-neg-08,negative_out_of_scope,False,5.0,5.0,5.0,3,0,0.00252,[],[],
+coreutils,self_rag,cu-neg-07,negative_out_of_scope,False,4.8,5.0,4.9,3,0,0.0038,[],[],
+coreutils,flare,cu-005,lookup,True,5.0,5.0,5.0,3,0,0.01273,[41],"[41, 42, 27, 36, 53, 71]",1
+coreutils,flare,cu-004,concept,True,5.0,5.0,5.0,3,0,0.01338,[25],"[25, 25, 102, 101, 97, 97]",1
+coreutils,flare,cu-003,lookup,True,2.0,1.0,1.5,3,0,0.01222,[24],"[38, 87, 97, 304, 25, 173]",0
+coreutils,flare,cu-002,lookup,True,2.0,1.5,1.75,3,0,0.01219,[24],"[38, 24, 48, 27, 44, 42]",1
+coreutils,flare,cu-001,lookup,True,3.6,4.5,4.05,3,0,0.01199,[12],"[12, 1, 23, 11, 4, 309]",1
+coreutils,flare,cu-008,lookup,True,5.0,5.0,5.0,3,0,0.00853,[53],"[53, 53, 53, 54, 42, 54]",1
+coreutils,flare,cu-007,lookup,True,5.0,5.0,5.0,3,0,0.00884,[53],"[53, 53, 54, 53, 319, 54]",1
+coreutils,flare,cu-006,lookup,True,5.0,5.0,5.0,3,0,0.01326,[43],"[45, 44, 43, 43, 42, 44]",1
+coreutils,flare,cu-010,lookup,True,3.8,3.0,3.4,3,0,0.01292,[65],"[110, 64, 62, 284, 70, 63]",0
+coreutils,flare,cu-009,lookup,True,1.8,2.75,2.275,3,0,0.01698,[63],"[64, 63, 65, 70, 69, 69]",1
+coreutils,flare,cu-012,lookup,True,5.0,5.0,5.0,3,0,0.01141,[62],"[72, 62, 73, 74, 68, 72]",1
+coreutils,flare,cu-011,lookup,True,5.0,5.0,5.0,3,0,0.01735,[62],"[69, 66, 93, 96, 92, 66]",0
+coreutils,flare,cu-013,lookup,True,3.2,4.25,3.725,3,0,0.00909,[73],"[72, 73, 74, 73, 72, 288]",1
+coreutils,flare,cu-014,lookup,True,4.0,4.5,4.25,3,0,0.01584,[87],"[86, 87, 91, 88, 93, 96]",1
+coreutils,flare,cu-015,lookup,True,4.0,5.0,4.5,3,0,0.01407,[86],"[86, 86, 97, 99, 102, 101]",1
+coreutils,flare,cu-016,concept,True,5.0,5.0,5.0,3,0,0.01477,[88],"[89, 88, 89, 88, 120, 127]",1
+coreutils,flare,cu-017,concept,True,5.0,5.0,5.0,3,0,0.01332,[90],"[90, 87, 94, 95, 93, 92]",1
+coreutils,flare,cu-019,lookup,True,5.0,5.0,5.0,3,0,0.01495,[46],"[46, 49, 47, 317, 47, 41]",1
+coreutils,flare,cu-020,lookup,True,2.6,3.75,3.175,3,0,0.01743,[46],"[46, 317, 47, 46, 178, 168]",1
+coreutils,flare,cu-018,lookup,True,2.2,2.0,2.1,3,0,0.0158,[59],"[60, 61, 191, 58, 55, 60]",0
+coreutils,flare,cu-021,concept,True,5.0,4.75,4.875,3,0,0.01439,[75],"[290, 76, 75, 292, 290, 75]",1
+coreutils,flare,cu-022,lookup,True,4.2,4.75,4.475,3,0,0.01544,[97],"[101, 101, 97, 291, 98, 100]",1
+coreutils,flare,cu-025,lookup,True,5.0,5.0,5.0,3,0,0.01069,[104],"[105, 105, 106, 104, 104, 104]",1
+coreutils,flare,cu-023,lookup,True,5.0,5.0,5.0,3,0,0.01592,[97],"[101, 100, 97, 100, 101, 291]",1
+coreutils,flare,cu-024,lookup,True,3.2,2.5,2.85,3,0,0.01272,[104],"[104, 106, 108, 112, 104, 109]",1
+coreutils,flare,cu-026,lookup,True,4.4,4.75,4.575,3,0,0.01381,[124],"[124, 121, 122, 120, 121, 122]",1
+coreutils,flare,cu-029,lookup,True,5.0,5.0,5.0,3,0,0.00977,[140],"[153, 140, 194, 302, 20, 141]",1
+coreutils,flare,cu-028,lookup,True,5.0,5.0,5.0,3,0,0.01178,[138],"[137, 137, 138, 138, 140, 137]",1
+coreutils,flare,cu-027,lookup,True,4.4,5.0,4.7,3,0,0.01493,[124],"[123, 124, 123, 121, 121, 121]",1
+coreutils,flare,cu-030,lookup,True,3.8,3.75,3.775,3,0,0.011,[145],"[145, 145, 147, 148, 146, 146]",1
+coreutils,flare,cu-031,lookup,True,3.2,4.5,3.85,3,0,0.01274,[149],"[149, 149, 150, 135, 196, 151]",1
+coreutils,flare,cu-032,lookup,True,5.0,5.0,5.0,3,0,0.01319,[165],"[165, 166, 164, 169, 167, 108]",1
+coreutils,flare,cu-034,lookup,True,5.0,5.0,5.0,3,0,0.01668,[218],"[220, 267, 272, 221, 221, 221]",0
+coreutils,flare,cu-033,lookup,True,2.8,1.25,2.025,3,0,0.00999,[170],"[169, 170, 170, 168, 253, 169]",1
+coreutils,flare,cu-035,lookup,True,3.0,4.5,3.75,3,0,0.0122,[222],"[223, 222, 8, 315, 313, 314]",1
+coreutils,flare,cu-036,concept,True,5.0,5.0,5.0,3,0,0.01512,[254],"[254, 255, 256, 9, 254, 48]",1
+coreutils,flare,cu-037,lookup,True,5.0,5.0,5.0,3,0,0.01325,[190],"[191, 190, 190, 191, 307, 24]",1
+coreutils,flare,cu-040,concept,True,4.4,4.25,4.325,3,0,0.01223,[182],"[182, 205, 211, 287, 179, 20]",1
+coreutils,flare,cu-038,concept,True,3.8,4.5,4.15,3,0,0.01606,[193],"[193, 193, 194, 199, 307, 307]",1
+coreutils,flare,cu-039,concept,True,4.2,4.5,4.35,3,0,0.01679,[242],"[242, 244, 243, 243, 243, 247]",1
+coreutils,flare,cu-neg-01,negative_cross_doc,False,5.0,2.0,3.5,3,0,0.01283,[],"[97, 187, 186, 133, 311, 100]",
+coreutils,flare,cu-neg-02,negative_cross_doc,False,1.0,1.0,1.0,3,0,0.01516,[],"[245, 191, 291, 97, 16, 20]",
+coreutils,flare,cu-neg-03,negative_cross_doc,False,5.0,2.0,3.5,3,0,0.01574,[],"[174, 174, 214, 215, 214, 180]",
+coreutils,flare,cu-neg-04,negative_cross_doc,False,5.0,2.0,3.5,3,0,0.01257,[],"[192, 37, 192, 47, 35, 196]",
+coreutils,flare,cu-neg-05,negative_out_of_scope,False,5.0,2.0,3.5,3,0,0.01316,[],"[139, 135, 304, 126, 121, 127]",
+coreutils,flare,cu-neg-06,negative_out_of_scope,False,5.0,2.0,3.5,3,0,0.01304,[],"[254, 196, 297, 254, 296, 100]",
+coreutils,flare,cu-neg-07,negative_out_of_scope,False,5.0,2.0,3.5,3,0,0.01344,[],"[90, 189, 95, 96, 93, 87]",
+coreutils,flare,cu-neg-08,negative_out_of_scope,False,5.0,2.0,3.5,3,0,0.01196,[],"[134, 135, 134, 134, 135, 124]",
+coreutils,ear_full,cu-005,lookup,True,5.0,2.0,3.5,1,6,0.00526,[41],"[27, 35, 36, 35, 53]",0
+coreutils,ear_full,cu-001,lookup,True,5.0,2.25,3.625,1,6,0.00578,[12],"[1, 23, 11, 309, 4]",0
+coreutils,ear_full,cu-004,concept,True,5.0,5.0,5.0,1,6,0.0073,[25],"[25, 25, 97, 97, 101]",1
+coreutils,ear_full,cu-002,lookup,True,3.0,1.5,2.25,1,6,0.00621,[24],"[24, 45, 44, 179, 45]",1
+coreutils,ear_full,cu-003,lookup,True,5.0,1.5,3.25,1,6,0.00454,[24],"[172, 24, 173, 38, 12]",1
+coreutils,ear_full,cu-007,lookup,True,5.0,5.0,5.0,1,6,0.00447,[53],"[53, 53, 54, 53, 35]",1
+coreutils,ear_full,cu-008,lookup,True,5.0,5.0,5.0,1,6,0.00516,[53],"[53, 53, 53, 54, 42]",1
+coreutils,ear_full,cu-006,lookup,True,5.0,5.0,5.0,1,6,0.0079,[43],"[45, 43, 44, 43, 43]",1
+coreutils,ear_full,cu-010,lookup,True,4.0,3.5,3.75,1,6,0.00534,[65],"[110, 284, 64, 65, 70]",1
+coreutils,ear_full,cu-009,lookup,True,2.4,2.75,2.575,1,6,0.00876,[63],"[64, 63, 65, 70, 68]",1
+coreutils,ear_full,cu-011,lookup,True,5.0,4.25,4.625,1,6,0.0108,[62],"[69, 66, 92, 69, 93]",0
+coreutils,ear_full,cu-012,lookup,True,5.0,5.0,5.0,1,6,0.0072,[62],"[72, 73, 288, 62, 68]",1
+coreutils,ear_full,cu-013,lookup,True,3.6,4.5,4.05,1,6,0.00505,[73],"[72, 73, 73, 72, 74]",1
+coreutils,ear_full,cu-014,lookup,True,5.0,5.0,5.0,1,6,0.01012,[87],"[86, 87, 91, 288, 88]",1
+coreutils,ear_full,cu-015,lookup,True,4.0,3.5,3.75,1,6,0.00862,[86],"[86, 99, 97, 101, 288]",1
+coreutils,ear_full,cu-016,concept,True,5.0,5.0,5.0,1,6,0.00811,[88],"[89, 88, 89, 88, 120]",1
+coreutils,ear_full,cu-017,concept,True,5.0,5.0,5.0,1,6,0.00966,[90],"[90, 87, 94, 92, 95]",1
+coreutils,ear_full,cu-018,lookup,True,2.4,2.0,2.2,1,6,0.00843,[59],"[60, 191, 61, 58, 306]",0
+coreutils,ear_full,cu-019,lookup,True,4.2,4.25,4.225,1,6,0.0085,[46],"[46, 317, 49, 47, 50]",1
+coreutils,ear_full,cu-020,lookup,True,2.2,2.0,2.1,1,6,0.00765,[46],"[46, 317, 46, 47, 178]",1
+coreutils,ear_full,cu-021,concept,True,4.6,4.25,4.425,1,6,0.0092,[75],"[290, 76, 75, 290, 292]",1
+coreutils,ear_full,cu-022,lookup,True,4.4,4.25,4.325,1,6,0.00863,[97],"[101, 101, 97, 291, 100]",1
+coreutils,ear_full,cu-023,lookup,True,5.0,5.0,5.0,1,6,0.00919,[97],"[97, 100, 101, 100, 100]",1
+coreutils,ear_full,cu-024,lookup,True,2.4,2.25,2.325,1,6,0.0075,[104],"[104, 106, 104, 110, 112]",1
+coreutils,ear_full,cu-025,lookup,True,3.6,3.5,3.55,1,6,0.00786,[104],"[106, 105, 104, 105, 108]",1
+coreutils,ear_full,cu-026,lookup,True,3.4,4.75,4.075,1,6,0.00704,[124],"[124, 121, 120, 122, 122]",1
+coreutils,ear_full,cu-028,lookup,True,5.0,5.0,5.0,1,6,0.00694,[138],"[137, 137, 138, 137, 138]",1
+coreutils,ear_full,cu-027,lookup,True,5.0,5.0,5.0,1,6,0.01035,[124],"[123, 124, 123, 121, 155]",1
+coreutils,ear_full,cu-029,lookup,True,5.0,5.0,5.0,1,6,0.00576,[140],"[140, 153, 302, 141, 194]",1
+coreutils,ear_full,cu-030,lookup,True,4.6,4.5,4.55,1,6,0.00609,[145],"[145, 145, 146, 146, 147]",1
+coreutils,ear_full,cu-031,lookup,True,3.0,4.5,3.75,1,6,0.00799,[149],"[149, 149, 150, 135, 263]",1
+coreutils,ear_full,cu-032,lookup,True,5.0,5.0,5.0,1,6,0.00711,[165],"[169, 165, 166, 164, 108]",1
+coreutils,ear_full,cu-033,lookup,True,3.4,2.5,2.95,1,6,0.00511,[170],"[170, 169, 170, 169, 168]",1
+coreutils,ear_full,cu-034,lookup,True,5.0,5.0,5.0,1,6,0.0093,[218],"[272, 220, 218, 267, 221]",1
+coreutils,ear_full,cu-035,lookup,True,4.4,4.75,4.575,1,6,0.00802,[222],"[223, 315, 8, 222, 314]",1
+coreutils,ear_full,cu-036,concept,True,5.0,5.0,5.0,1,6,0.0074,[254],"[255, 254, 9, 256, 254]",1
+coreutils,ear_full,cu-037,lookup,True,5.0,5.0,5.0,1,6,0.00679,[190],"[191, 190, 190, 191, 307]",1
+coreutils,ear_full,cu-038,concept,True,4.4,5.0,4.7,1,6,0.00821,[193],"[193, 193, 194, 199, 307]",1
+coreutils,ear_full,cu-040,concept,True,3.2,1.0,2.1,1,6,0.00523,[182],"[211, 240, 183, 205, 319]",0
+coreutils,ear_full,cu-039,concept,True,4.2,4.5,4.35,1,6,0.00821,[242],"[242, 244, 243, 243, 243]",1
+coreutils,ear_full,cu-neg-02,negative_cross_doc,False,5.0,1.25,3.125,1,6,0.00633,[],"[307, 97, 20, 100, 291]",
+coreutils,ear_full,cu-neg-01,negative_cross_doc,False,5.0,2.0,3.5,1,6,0.00636,[],"[97, 187, 311, 100, 133]",
+coreutils,ear_full,cu-neg-03,negative_cross_doc,False,5.0,2.0,3.5,1,6,0.00725,[],"[174, 215, 174, 180, 214]",
+coreutils,ear_full,cu-neg-04,negative_cross_doc,False,5.0,2.0,3.5,1,6,0.00597,[],"[37, 192, 47, 35, 222]",
+coreutils,ear_full,cu-neg-05,negative_out_of_scope,False,5.0,2.0,3.5,1,6,0.0061,[],"[139, 304, 135, 126, 285]",
+coreutils,ear_full,cu-neg-06,negative_out_of_scope,False,5.0,2.0,3.5,1,6,0.00594,[],"[296, 284, 297, 254, 254]",
+coreutils,ear_full,cu-neg-07,negative_out_of_scope,False,5.0,2.0,3.5,1,6,0.00628,[],"[189, 90, 96, 95, 186]",
+coreutils,ear_full,cu-neg-08,negative_out_of_scope,False,5.0,2.0,3.5,1,6,0.00522,[],"[134, 134, 135, 134, 160]",
+make,simple,mk-001,concept,True,5.0,5.0,5.0,1,0,0.00826,[13],"[13, 192, 13, 171, 194, 4]",1
+make,simple,mk-003,concept,True,4.2,5.0,4.6,1,0,0.00947,[43],"[44, 43, 44, 45, 122, 43]",1
+make,simple,mk-004,lookup,True,2.8,2.75,2.775,1,0,0.00884,[143],"[143, 227, 77, 51, 195, 50]",1
+make,simple,mk-002,concept,True,4.2,4.5,4.35,1,0,0.00772,[35],"[15, 35, 15, 15, 23, 69]",1
+make,simple,mk-005,lookup,True,2.6,1.5,2.05,1,0,0.00849,[143],"[143, 77, 85, 227, 145, 81]",1
+make,simple,mk-006,lookup,True,5.0,5.0,5.0,1,0,0.00821,[143],"[143, 77, 227, 195, 85, 195]",1
+make,simple,mk-007,lookup,True,1.4,1.25,1.325,1,0,0.00726,[143],"[143, 77, 227, 195, 81, 81]",1
+make,simple,mk-008,lookup,True,4.2,5.0,4.6,1,0,0.01115,[144],"[144, 227, 77, 143, 227, 142]",1
+make,simple,mk-010,lookup,True,5.0,4.75,4.875,1,0,0.00984,[37],"[39, 37, 38, 225, 38, 37]",1
+make,simple,mk-009,concept,True,3.4,4.5,3.95,1,0,0.00828,[141],"[141, 141, 9, 141, 53, 53]",1
+make,simple,mk-011,concept,True,5.0,5.0,5.0,1,0,0.01036,[78],"[81, 79, 85, 87, 86, 79]",0
+make,simple,mk-013,lookup,True,5.0,5.0,5.0,1,0,0.00769,[81],"[81, 81, 85, 79, 87, 80]",1
+make,simple,mk-012,concept,True,5.0,5.0,5.0,1,0,0.00971,[79],"[79, 80, 80, 79, 78, 79]",1
+make,simple,mk-014,lookup,True,5.0,5.0,5.0,1,0,0.00998,[86],"[86, 86, 80, 81, 87, 30]",1
+make,simple,mk-015,lookup,True,5.0,5.0,5.0,1,0,0.00946,[63],"[63, 129, 165, 64, 166, 72]",1
+make,simple,mk-018,lookup,True,5.0,5.0,5.0,1,0,0.00722,[127],"[127, 71, 129, 124, 131, 169]",1
+make,simple,mk-017,lookup,True,3.6,3.5,3.55,1,0,0.00813,[123],"[129, 124, 124, 217, 71, 128]",0
+make,simple,mk-019,concept,True,5.0,5.0,5.0,1,0,0.00726,[25],"[25, 25, 23, 25, 87, 56]",1
+make,simple,mk-016,lookup,True,4.4,3.5,3.95,1,0,0.00932,[63],"[67, 126, 126, 71, 129, 131]",0
+make,simple,mk-020,concept,True,3.2,4.25,3.725,1,0,0.01052,[69],"[72, 71, 73, 71, 196, 72]",0
+make,simple,mk-021,concept,True,5.0,5.0,5.0,1,0,0.00842,[39],"[39, 40, 40, 41, 40, 223]",1
+make,simple,mk-024,lookup,True,5.0,5.0,5.0,1,0,0.00902,[104],"[104, 107, 83, 192, 105, 82]",1
+make,simple,mk-022,concept,True,5.0,5.0,5.0,1,0,0.00958,[40],"[40, 39, 40, 41, 40, 39]",1
+make,simple,mk-023,lookup,True,2.2,2.25,2.225,1,0,0.01019,[104],"[104, 105, 107, 82, 170, 39]",1
+make,simple,mk-025,lookup,True,4.8,3.75,4.275,1,0,0.00652,[105],"[192, 103, 117, 115, 106, 119]",0
+make,simple,mk-026,lookup,True,5.0,5.0,5.0,1,0,0.00728,[106],"[192, 106, 103, 117, 119, 117]",1
+make,simple,mk-027,lookup,True,4.4,1.5,2.95,1,0,0.00568,[106],"[192, 117, 84, 119, 110, 194]",0
+make,simple,mk-028,concept,True,5.0,5.0,5.0,1,0,0.00892,[111],"[111, 112, 111, 112, 157, 192]",1
+make,simple,mk-029,concept,True,3.4,3.75,3.575,1,0,0.00875,[109],"[194, 99, 105, 97, 109, 115]",1
+make,simple,mk-032,lookup,True,5.0,5.0,5.0,1,0,0.00777,[107],"[144, 107, 41, 144, 107, 228]",1
+make,simple,mk-030,concept,True,4.8,4.5,4.65,1,0,0.01055,[111],"[113, 113, 114, 103, 9, 113]",0
+make,simple,mk-031,concept,True,4.0,4.5,4.25,1,0,0.00941,[119],"[119, 119, 61, 62, 62, 85]",1
+make,simple,mk-033,lookup,True,4.2,4.5,4.35,1,0,0.00813,[107],"[107, 178, 229, 41, 178, 217]",1
+make,simple,mk-034,lookup,True,5.0,5.0,5.0,1,0,0.01094,[97],"[97, 99, 98, 194, 98, 97]",1
+make,simple,mk-035,lookup,True,2.2,5.0,3.6,1,0,0.0085,[99],"[99, 99, 100, 100, 97, 100]",1
+make,simple,mk-036,concept,True,5.0,5.0,5.0,1,0,0.00913,[36],"[36, 36, 51, 36, 222, 134]",1
+make,simple,mk-038,concept,True,5.0,5.0,5.0,1,0,0.00663,[48],"[67, 48, 67, 67, 66, 166]",1
+make,simple,mk-037,lookup,True,5.0,5.0,5.0,1,0,0.0077,[92],"[92, 93, 121, 17, 122, 122]",1
+make,simple,mk-039,lookup,True,3.0,3.0,3.0,1,0,0.00883,[59],"[60, 74, 8, 74, 57, 57]",0
+make,simple,mk-040,lookup,True,5.0,5.0,5.0,1,0,0.0081,[66],"[67, 66, 48, 67, 63, 199]",1
+make,simple,mk-042,concept,True,1.6,1.0,1.3,1,0,0.00747,[118],"[115, 118, 114, 199, 116, 117]",1
+make,simple,mk-041,concept,True,4.0,5.0,4.5,1,0,0.0083,[70],"[70, 70, 191, 69, 71, 69]",1
+make,simple,mk-neg-01,negative_cross_doc,False,5.0,2.0,3.5,1,0,0.00701,[],"[80, 80, 78, 85, 227, 79]",
+make,simple,mk-neg-02,negative_cross_doc,False,1.4,1.25,1.325,1,0,0.01021,[],"[192, 225, 193, 220, 225, 106]",
+make,simple,mk-neg-04,negative_cross_doc,False,5.0,2.0,3.5,1,0,0.00642,[],"[136, 152, 135, 43, 43, 157]",
+make,simple,mk-neg-03,negative_cross_doc,False,5.0,2.0,3.5,1,0,0.00922,[],"[128, 132, 217, 217, 128, 217]",
+make,simple,mk-neg-05,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.00636,[],"[140, 216, 135, 184, 205, 133]",
+make,simple,mk-neg-06,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.00703,[],"[111, 35, 57, 205, 223, 14]",
+make,simple,mk-neg-07,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.00743,[],"[206, 196, 71, 138, 178, 228]",
+make,simple,mk-neg-08,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.00671,[],"[123, 127, 121, 129, 187, 72]",
+make,reranked_simple,mk-005,lookup,True,2.8,2.5,2.65,1,0,0.00624,[143],"[145, 77, 142, 142, 143]",1
+make,reranked_simple,mk-001,concept,True,5.0,5.0,5.0,1,0,0.00688,[13],"[13, 4, 13, 176, 176]",1
+make,reranked_simple,mk-003,concept,True,5.0,5.0,5.0,1,0,0.0085,[43],"[43, 44, 44, 43, 45]",1
+make,reranked_simple,mk-004,lookup,True,2.6,3.0,2.8,1,0,0.00683,[143],"[50, 77, 51, 143, 142]",1
+make,reranked_simple,mk-002,concept,True,3.4,4.5,3.95,1,0,0.00724,[35],"[35, 15, 23, 29, 5]",1
+make,reranked_simple,mk-007,lookup,True,2.6,1.25,1.925,1,0,0.00617,[143],"[77, 145, 195, 143, 227]",1
+make,reranked_simple,mk-006,lookup,True,2.2,1.25,1.725,1,0,0.00694,[143],"[77, 32, 195, 51, 143]",1
+make,reranked_simple,mk-008,lookup,True,2.8,1.5,2.15,1,0,0.00654,[144],"[77, 38, 145, 51, 227]",0
+make,reranked_simple,mk-009,concept,True,4.0,4.5,4.25,1,0,0.0086,[141],"[141, 53, 145, 141, 141]",1
+make,reranked_simple,mk-010,lookup,True,5.0,4.75,4.875,1,0,0.00741,[37],"[38, 109, 37, 39, 109]",1
+make,reranked_simple,mk-012,concept,True,5.0,5.0,5.0,1,0,0.00845,[79],"[79, 79, 85, 79, 200]",1
+make,reranked_simple,mk-011,concept,True,5.0,4.5,4.75,1,0,0.00837,[78],"[80, 90, 119, 80, 85]",0
+make,reranked_simple,mk-013,lookup,True,3.4,1.5,2.45,1,0,0.00676,[81],"[119, 80, 85, 81, 30]",1
+make,reranked_simple,mk-014,lookup,True,2.2,2.0,2.1,1,0,0.008,[86],"[80, 119, 30, 81, 85]",0
+make,reranked_simple,mk-015,lookup,True,5.0,5.0,5.0,1,0,0.00854,[63],"[72, 129, 63, 165, 166]",1
+make,reranked_simple,mk-018,lookup,True,5.0,5.0,5.0,1,0,0.00584,[127],"[67, 71, 137, 127, 169]",1
+make,reranked_simple,mk-017,lookup,True,5.0,5.0,5.0,1,0,0.00733,[123],"[71, 124, 167, 132, 124]",0
+make,reranked_simple,mk-016,lookup,True,5.0,4.75,4.875,1,0,0.00921,[63],"[67, 126, 131, 63, 72]",1
+make,reranked_simple,mk-019,concept,True,5.0,5.0,5.0,1,0,0.00609,[25],"[25, 25, 56, 23, 95]",1
+make,reranked_simple,mk-020,concept,True,4.4,4.25,4.325,1,0,0.00978,[69],"[72, 71, 73, 72, 196]",0
+make,reranked_simple,mk-021,concept,True,5.0,5.0,5.0,1,0,0.00823,[39],"[39, 40, 40, 137, 107]",1
+make,reranked_simple,mk-022,concept,True,5.0,5.0,5.0,1,0,0.00769,[40],"[40, 40, 40, 107, 39]",1
+make,reranked_simple,mk-024,lookup,True,5.0,5.0,5.0,1,0,0.00787,[104],"[107, 104, 83, 107, 103]",1
+make,reranked_simple,mk-023,lookup,True,3.2,3.5,3.35,1,0,0.00947,[104],"[107, 105, 39, 104, 107]",1
+make,reranked_simple,mk-025,lookup,True,4.2,4.25,4.225,1,0,0.00629,[105],"[106, 192, 105, 117, 114]",1
+make,reranked_simple,mk-026,lookup,True,5.0,5.0,5.0,1,0,0.00658,[106],"[106, 192, 105, 117, 114]",1
+make,reranked_simple,mk-027,lookup,True,2.4,1.5,1.95,1,0,0.00587,[106],"[84, 117, 106, 114, 192]",1
+make,reranked_simple,mk-029,concept,True,1.8,1.5,1.65,1,0,0.00776,[109],"[109, 99, 105, 110, 114]",1
+make,reranked_simple,mk-028,concept,True,3.0,3.0,3.0,1,0,0.00868,[111],"[111, 112, 113, 112, 194]",1
+make,reranked_simple,mk-030,concept,True,4.2,3.75,3.975,1,0,0.00943,[111],"[113, 113, 103, 114, 9]",0
+make,reranked_simple,mk-032,lookup,True,5.0,5.0,5.0,1,0,0.00639,[107],"[144, 107, 107, 128, 144]",1
+make,reranked_simple,mk-031,concept,True,4.4,5.0,4.7,1,0,0.0086,[119],"[119, 119, 85, 62, 62]",1
+make,reranked_simple,mk-033,lookup,True,4.2,4.5,4.35,1,0,0.00593,[107],"[109, 144, 178, 107, 178]",1
+make,reranked_simple,mk-034,lookup,True,5.0,5.0,5.0,1,0,0.00943,[97],"[97, 98, 100, 97, 57]",1
+make,reranked_simple,mk-037,lookup,True,5.0,5.0,5.0,1,0,0.00798,[92],"[92, 121, 93, 17, 227]",1
+make,reranked_simple,mk-035,lookup,True,4.4,5.0,4.7,1,0,0.00957,[99],"[100, 99, 99, 221, 228]",1
+make,reranked_simple,mk-036,concept,True,5.0,5.0,5.0,1,0,0.00817,[36],"[36, 36, 36, 143, 195]",1
+make,reranked_simple,mk-038,concept,True,5.0,5.0,5.0,1,0,0.00662,[48],"[67, 48, 67, 140, 66]",1
+make,reranked_simple,mk-040,lookup,True,5.0,5.0,5.0,1,0,0.00738,[66],"[66, 199, 67, 48, 63]",1
+make,reranked_simple,mk-039,lookup,True,2.2,3.0,2.6,1,0,0.00712,[59],"[48, 49, 60, 66, 57]",0
+make,reranked_simple,mk-neg-01,negative_cross_doc,False,5.0,2.0,3.5,1,0,0.00516,[],"[80, 82, 79, 32, 24]",
+make,reranked_simple,mk-042,concept,True,5.0,5.0,5.0,1,0,0.00775,[118],"[118, 118, 126, 66, 114]",1
+make,reranked_simple,mk-041,concept,True,3.4,4.75,4.075,1,0,0.00822,[70],"[70, 70, 89, 69, 71]",1
+make,reranked_simple,mk-neg-03,negative_cross_doc,False,5.0,2.0,3.5,1,0,0.00821,[],"[217, 217, 217, 72, 128]",
+make,reranked_simple,mk-neg-02,negative_cross_doc,False,1.4,2.0,1.7,1,0,0.00783,[],"[193, 106, 225, 192, 106]",
+make,reranked_simple,mk-neg-04,negative_cross_doc,False,5.0,2.0,3.5,1,0,0.00644,[],"[158, 136, 96, 43, 183]",
+make,reranked_simple,mk-neg-05,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.00547,[],"[188, 189, 189, 184, 177]",
+make,reranked_simple,mk-neg-06,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.00534,[],"[112, 113, 166, 149, 100]",
+make,reranked_simple,mk-neg-07,negative_out_of_scope,False,5.0,3.0,4.0,1,0,0.00694,[],"[218, 228, 124, 88, 71]",
+make,reranked_simple,mk-neg-08,negative_out_of_scope,False,5.0,2.0,3.5,1,0,0.00676,[],"[119, 224, 17, 72, 124]",
+make,agentic,mk-003,concept,True,5.0,5.0,5.0,3,0,0.01749,[43],"[44, 43, 44, 45, 122, 43]",1
+make,agentic,mk-004,lookup,True,4.6,4.5,4.55,3,0,0.01956,[143],"[143, 227, 77, 51, 195, 50]",1
+make,agentic,mk-001,concept,True,5.0,5.0,5.0,3,0,0.01836,[13],"[13, 192, 13, 171, 194, 4]",1
+make,agentic,mk-002,concept,True,3.2,3.0,3.1,3,0,0.01623,[35],"[15, 35, 15, 15, 23, 69]",1
+make,agentic,mk-007,lookup,True,1.0,1.25,1.125,3,0,0.01654,[143],"[143, 77, 227, 195, 81, 81]",1
+make,agentic,mk-005,lookup,True,5.0,1.25,3.125,7,0,0.04086,[143],"[143, 77, 85, 227, 145, 81]",1
+make,agentic,mk-008,lookup,True,5.0,5.0,5.0,3,0,0.023,[144],"[144, 227, 77, 143, 227, 142]",1
+make,agentic,mk-006,lookup,True,5.0,5.0,5.0,3,0,0.02097,[143],"[143, 77, 227, 195, 85, 195]",1
+make,agentic,mk-009,concept,True,3.2,4.5,3.85,3,0,0.01895,[141],"[141, 141, 9, 141, 53, 53]",1
+make,agentic,mk-013,lookup,True,5.0,5.0,5.0,3,0,0.0171,[81],"[81, 81, 85, 79, 87, 80]",1
+make,agentic,mk-010,lookup,True,5.0,4.75,4.875,3,0,0.01916,[37],"[39, 37, 38, 225, 38, 37]",1
+make,agentic,mk-012,concept,True,5.0,5.0,5.0,3,0,0.0204,[79],"[79, 80, 80, 79, 78, 79]",1
+make,agentic,mk-011,concept,True,5.0,5.0,5.0,3,0,0.02023,[78],"[81, 79, 85, 87, 86, 79]",0
+make,agentic,mk-014,lookup,True,4.4,5.0,4.7,3,0,0.01866,[86],"[86, 86, 80, 81, 87, 30]",1
+make,agentic,mk-015,lookup,True,5.0,5.0,5.0,3,0,0.01889,[63],"[63, 129, 165, 64, 166, 72]",1
+make,agentic,mk-016,lookup,True,5.0,4.5,4.75,3,0,0.0196,[63],"[67, 126, 126, 71, 129, 131]",0
+make,agentic,mk-017,lookup,True,3.6,3.5,3.55,3,0,0.01877,[123],"[129, 124, 124, 217, 71, 128]",0
+make,agentic,mk-018,lookup,True,5.0,5.0,5.0,3,0,0.0189,[127],"[127, 71, 129, 124, 131, 169]",1
+make,agentic,mk-019,concept,True,5.0,5.0,5.0,3,0,0.01642,[25],"[25, 25, 23, 25, 87, 56]",1
+make,agentic,mk-021,concept,True,5.0,5.0,5.0,3,0,0.02292,[39],"[39, 40, 40, 41, 40, 223]",1
+make,agentic,mk-022,concept,True,5.0,5.0,5.0,3,0,0.01676,[40],"[40, 39, 40, 41, 40, 39]",1
+make,agentic,mk-023,lookup,True,2.0,2.25,2.125,3,0,0.02016,[104],"[104, 105, 107, 82, 170, 39]",1
+make,agentic,mk-020,concept,True,4.2,4.5,4.35,3,0,0.02226,[69],"[72, 71, 73, 71, 196, 72]",0
+make,agentic,mk-024,lookup,True,5.0,5.0,5.0,3,0,0.01854,[104],"[104, 107, 83, 192, 105, 82]",1
+make,agentic,mk-026,lookup,True,5.0,5.0,5.0,3,0,0.01882,[106],"[192, 106, 103, 117, 119, 117]",1
+make,agentic,mk-025,lookup,True,4.8,4.25,4.525,3,0,0.01801,[105],"[192, 103, 117, 115, 106, 119]",0
+make,agentic,mk-027,lookup,True,4.4,1.5,2.95,3,0,0.01309,[106],"[192, 117, 84, 119, 110, 194]",0
+make,agentic,mk-028,concept,True,5.0,5.0,5.0,3,0,0.0191,[111],"[111, 112, 111, 112, 157, 192]",1
+make,agentic,mk-029,concept,True,4.0,3.0,3.5,3,0,0.02088,[109],"[194, 99, 105, 97, 109, 115]",1
+make,agentic,mk-032,lookup,True,5.0,5.0,5.0,3,0,0.01929,[107],"[144, 107, 41, 144, 107, 228]",1
+make,agentic,mk-030,concept,True,5.0,4.75,4.875,3,0,0.0197,[111],"[113, 113, 114, 103, 9, 113]",0
+make,agentic,mk-033,lookup,True,4.8,4.5,4.65,3,0,0.02216,[107],"[107, 178, 229, 41, 178, 217]",1
+make,agentic,mk-031,concept,True,4.0,4.5,4.25,3,0,0.01819,[119],"[119, 119, 61, 62, 62, 85]",1
+make,agentic,mk-034,lookup,True,5.0,5.0,5.0,3,0,0.02437,[97],"[97, 99, 98, 194, 98, 97]",1
+make,agentic,mk-036,concept,True,5.0,5.0,5.0,3,0,0.02019,[36],"[36, 36, 51, 36, 222, 134]",1
+make,agentic,mk-035,lookup,True,3.4,5.0,4.2,3,0,0.02049,[99],"[99, 99, 100, 100, 97, 100]",1
+make,agentic,mk-037,lookup,True,5.0,5.0,5.0,3,0,0.01682,[92],"[92, 93, 121, 17, 122, 122]",1
+make,agentic,mk-038,concept,True,5.0,5.0,5.0,3,0,0.01568,[48],"[67, 48, 67, 67, 66, 166]",1
+make,agentic,mk-040,lookup,True,5.0,5.0,5.0,3,0,0.02042,[66],"[67, 66, 48, 67, 63, 199]",1
+make,agentic,mk-041,concept,True,3.2,4.75,3.975,3,0,0.01699,[70],"[70, 70, 191, 69, 71, 69]",1
+make,agentic,mk-042,concept,True,2.2,1.5,1.85,3,0,0.0233,[118],"[115, 118, 114, 199, 116, 117]",1
+make,agentic,mk-039,lookup,True,2.4,3.0,2.7,3,0,0.0245,[59],"[60, 74, 8, 74, 57, 57]",0
+make,agentic,mk-neg-01,negative_cross_doc,False,5.0,2.0,3.5,7,0,0.04046,[],"[80, 80, 78, 85, 227, 79]",
+make,agentic,mk-neg-03,negative_cross_doc,False,5.0,2.0,3.5,7,0,0.04643,[],"[128, 132, 217, 217, 128, 217]",
+make,agentic,mk-neg-04,negative_cross_doc,False,5.0,2.0,3.5,7,0,0.03568,[],"[136, 152, 135, 43, 43, 157]",
+make,agentic,mk-neg-02,negative_cross_doc,False,1.2,2.0,1.6,7,0,0.05092,[],"[192, 225, 193, 220, 225, 106]",
+make,agentic,mk-neg-05,negative_out_of_scope,False,5.0,2.0,3.5,7,0,0.04134,[],"[140, 216, 135, 184, 205, 133]",
+make,agentic,mk-neg-06,negative_out_of_scope,False,5.0,2.0,3.5,7,0,0.03894,[],"[111, 35, 57, 205, 223, 14]",
+make,agentic,mk-neg-07,negative_out_of_scope,False,5.0,2.0,3.5,7,0,0.03969,[],"[206, 196, 71, 138, 178, 228]",
+make,agentic,mk-neg-08,negative_out_of_scope,False,5.0,3.0,4.0,7,0,0.0354,[],"[123, 127, 121, 129, 187, 72]",
+make,self_rag,mk-002,concept,True,3.4,1.0,2.2,3,0,0.00245,[35],[],0
+make,self_rag,mk-004,lookup,True,3.2,1.0,2.1,3,0,0.00277,[143],[],0
+make,self_rag,mk-001,concept,True,5.0,5.0,5.0,4,0,0.01417,[13],"[13, 13, 4]",1
+make,self_rag,mk-003,concept,True,4.6,5.0,4.8,4,0,0.02011,[43],"[44, 43, 44, 45, 43]",1
+make,self_rag,mk-005,lookup,True,4.6,4.25,4.425,4,0,0.01759,[143],"[143, 77, 145, 142, 142]",1
+make,self_rag,mk-006,lookup,True,3.0,1.0,2.0,3,0,0.00274,[143],[],0
+make,self_rag,mk-007,lookup,True,1.4,1.0,1.2,3,0,0.00342,[143],[],0
+make,self_rag,mk-008,lookup,True,5.0,5.0,5.0,4,0,0.01963,[144],"[144, 77, 143, 142, 144]",1
+make,self_rag,mk-010,lookup,True,5.0,4.75,4.875,4,0,0.02257,[37],"[39, 225, 38, 112, 193]",0
+make,self_rag,mk-009,concept,True,5.0,5.0,5.0,4,0,0.02102,[141],"[141, 141, 145, 29, 145]",1
+make,self_rag,mk-011,concept,True,2.4,1.0,1.7,3,0,0.00441,[78],[],0
+make,self_rag,mk-012,concept,True,5.0,5.0,5.0,4,0,0.01404,[79],"[79, 79]",1
+make,self_rag,mk-014,lookup,True,2.0,1.0,1.5,3,0,0.00304,[86],[],0
+make,self_rag,mk-013,lookup,True,5.0,5.0,5.0,4,0,0.01285,[81],"[81, 218]",1
+make,self_rag,mk-015,lookup,True,3.2,1.0,2.1,3,0,0.00356,[63],[],0
+make,self_rag,mk-018,lookup,True,5.0,5.0,5.0,4,0,0.01024,[127],[127],1
+make,self_rag,mk-016,lookup,True,4.0,3.5,3.75,4,0,0.02173,[63],"[67, 126, 126, 71, 129]",0
+make,self_rag,mk-017,lookup,True,4.2,3.5,3.85,4,0,0.02123,[123],"[129, 124, 124, 217, 71]",0
+make,self_rag,mk-019,concept,True,5.0,5.0,5.0,4,0,0.01353,[25],"[25, 25, 56]",1
+make,self_rag,mk-020,concept,True,4.2,4.25,4.225,4,0,0.02128,[69],"[72, 71, 73, 101, 71]",0
+make,self_rag,mk-021,concept,True,5.0,5.0,5.0,4,0,0.02156,[39],"[39, 40, 40, 41, 223]",1
+make,self_rag,mk-022,concept,True,5.0,5.0,5.0,4,0,0.02122,[40],"[40, 39, 41, 40, 7]",1
+make,self_rag,mk-024,lookup,True,5.0,5.0,5.0,4,0,0.02189,[104],"[104, 107, 83, 192, 105]",1
+make,self_rag,mk-025,lookup,True,3.2,1.0,2.1,3,0,0.00277,[105],[],0
+make,self_rag,mk-023,lookup,True,2.2,2.25,2.225,4,0,0.02228,[104],"[104, 105, 82, 39, 81]",1
+make,self_rag,mk-026,lookup,True,5.0,5.0,5.0,4,0,0.01188,[106],[106],1
+make,self_rag,mk-027,lookup,True,3.2,1.0,2.1,3,0,0.00261,[106],[],0
+make,self_rag,mk-028,concept,True,2.8,1.0,1.9,3,0,0.00274,[111],[],0
+make,self_rag,mk-029,concept,True,2.8,1.0,1.9,3,0,0.00319,[109],[],0
+make,self_rag,mk-030,concept,True,5.0,4.75,4.875,4,0,0.01865,[111],"[113, 114, 195]",0
+make,self_rag,mk-031,concept,True,2.8,1.0,1.9,3,0,0.00322,[119],[],0
+make,self_rag,mk-032,lookup,True,3.2,1.0,2.1,3,0,0.00265,[107],[],0
+make,self_rag,mk-033,lookup,True,3.8,2.25,3.025,4,0,0.01054,[107],[109],0
+make,self_rag,mk-034,lookup,True,5.0,5.0,5.0,4,0,0.01937,[97],"[97, 99, 98]",1
+make,self_rag,mk-035,lookup,True,3.0,4.25,3.625,4,0,0.01319,[99],"[99, 100]",1
+make,self_rag,mk-037,lookup,True,5.0,5.0,5.0,4,0,0.01395,[92],"[92, 93, 121]",1
+make,self_rag,mk-036,concept,True,2.8,4.5,3.65,4,0,0.01347,[36],"[36, 36]",1
+make,self_rag,mk-038,concept,True,5.0,5.0,5.0,4,0,0.01225,[48],"[67, 48]",1
+make,self_rag,mk-039,lookup,True,2.733,3.0,2.867,4,0,0.0161,[59],"[60, 74, 48, 49]",0
+make,self_rag,mk-040,lookup,True,5.0,5.0,5.0,4,0,0.02207,[66],"[67, 66, 48, 67, 63]",1
+make,self_rag,mk-042,concept,True,3.2,1.0,2.1,3,0,0.00243,[118],[],0
+make,self_rag,mk-041,concept,True,4.0,5.0,4.5,4,0,0.01998,[70],"[70, 70, 191, 69, 71]",1
+make,self_rag,mk-neg-02,negative_cross_doc,False,4.4,5.0,4.7,3,0,0.00372,[],[],
+make,self_rag,mk-neg-01,negative_cross_doc,False,5.0,2.0,3.5,4,0,0.01912,[],"[80, 80, 78, 85, 227]",
+make,self_rag,mk-neg-04,negative_cross_doc,False,5.0,5.0,5.0,3,0,0.00343,[],[],
+make,self_rag,mk-neg-03,negative_cross_doc,False,5.0,2.0,3.5,4,0,0.02314,[],"[128, 132, 217, 217, 128]",
+make,self_rag,mk-neg-05,negative_out_of_scope,False,5.0,5.0,5.0,3,0,0.00302,[],[],
+make,self_rag,mk-neg-07,negative_out_of_scope,False,5.0,5.0,5.0,3,0,0.0024,[],[],
+make,self_rag,mk-neg-08,negative_out_of_scope,False,5.0,5.0,5.0,3,0,0.00212,[],[],
+make,self_rag,mk-neg-06,negative_out_of_scope,False,1.8,5.0,3.4,3,0,0.00433,[],[],
+make,flare,mk-004,lookup,True,4.6,4.75,4.675,3,0,0.01317,[143],"[143, 50, 51, 77, 196, 144]",1
+make,flare,mk-001,concept,True,5.0,5.0,5.0,3,0,0.01314,[13],"[13, 13, 121, 192, 123, 171]",1
+make,flare,mk-005,lookup,True,2.2,1.5,1.85,3,0,0.01337,[143],"[145, 143, 78, 84, 77, 79]",1
+make,flare,mk-002,concept,True,5.0,4.75,4.875,3,0,0.01287,[35],"[15, 35, 15, 15, 23, 31]",1
+make,flare,mk-003,concept,True,3.2,4.75,3.975,3,0,0.01544,[43],"[45, 43, 44, 44, 122, 46]",1
+make,flare,mk-006,lookup,True,5.0,5.0,5.0,3,0,0.01218,[143],"[143, 195, 77, 143, 144, 78]",1
+make,flare,mk-007,lookup,True,2.6,1.5,2.05,3,0,0.0131,[143],"[85, 227, 144, 81, 196, 59]",0
+make,flare,mk-008,lookup,True,5.0,5.0,5.0,3,0,0.01439,[144],"[144, 143, 78, 24, 196, 77]",1
+make,flare,mk-010,lookup,True,5.0,4.75,4.875,3,0,0.01467,[37],"[39, 37, 225, 37, 38, 38]",1
+make,flare,mk-009,concept,True,4.2,4.5,4.35,3,0,0.01305,[141],"[141, 141, 9, 141, 53, 142]",1
+make,flare,mk-011,concept,True,3.4,4.75,4.075,3,0,0.01721,[78],"[81, 79, 85, 87, 86, 79]",0
+make,flare,mk-013,lookup,True,5.0,5.0,5.0,3,0,0.01373,[81],"[81, 81, 85, 79, 87, 79]",1
+make,flare,mk-012,concept,True,5.0,5.0,5.0,3,0,0.01428,[79],"[79, 79, 79, 29, 78, 80]",1
+make,flare,mk-014,lookup,True,3.2,4.75,3.975,3,0,0.01491,[86],"[86, 86, 80, 81, 87, 30]",1
+make,flare,mk-015,lookup,True,5.0,5.0,5.0,3,0,0.01547,[63],"[63, 129, 64, 165, 72, 166]",1
+make,flare,mk-017,lookup,True,3.6,3.0,3.3,3,0,0.01448,[123],"[129, 217, 124, 128, 124, 63]",0
+make,flare,mk-016,lookup,True,3.8,3.0,3.4,3,0,0.01675,[63],"[67, 126, 126, 129, 129, 71]",0
+make,flare,mk-018,lookup,True,5.0,5.0,5.0,3,0,0.01324,[127],"[127, 129, 132, 217, 130, 131]",1
+make,flare,mk-019,concept,True,4.8,5.0,4.9,3,0,0.01446,[25],"[25, 25, 25, 23, 191, 88]",1
+make,flare,mk-020,concept,True,3.0,4.25,3.625,3,0,0.01577,[69],"[72, 71, 73, 71, 196, 26]",0
+make,flare,mk-021,concept,True,5.0,5.0,5.0,3,0,0.01372,[39],"[39, 40, 40, 41, 39, 223]",1
+make,flare,mk-022,concept,True,5.0,5.0,5.0,3,0,0.01499,[40],"[39, 40, 40, 41, 39, 42]",1
+make,flare,mk-024,lookup,True,5.0,5.0,5.0,3,0,0.0141,[104],"[104, 107, 83, 192, 105, 81]",1
+make,flare,mk-023,lookup,True,4.6,4.25,4.425,3,0,0.0157,[104],"[105, 104, 82, 107, 39, 170]",1
+make,flare,mk-025,lookup,True,3.6,3.0,3.3,3,0,0.01404,[105],"[106, 105, 192, 117, 115, 103]",1
+make,flare,mk-026,lookup,True,5.0,5.0,5.0,3,0,0.0133,[106],"[106, 192, 105, 101, 103, 118]",1
+make,flare,mk-027,lookup,True,3.6,1.25,2.425,3,0,0.01192,[106],"[192, 117, 194, 110, 84, 119]",0
+make,flare,mk-029,concept,True,3.2,4.25,3.725,3,0,0.01416,[109],"[194, 99, 97, 105, 109, 115]",1
+make,flare,mk-028,concept,True,5.0,5.0,5.0,3,0,0.01678,[111],"[111, 112, 111, 157, 192, 112]",1
+make,flare,mk-030,concept,True,5.0,4.75,4.875,3,0,0.01421,[111],"[113, 113, 114, 9, 103, 113]",0
+make,flare,mk-031,concept,True,4.0,5.0,4.5,3,0,0.01325,[119],"[119, 119, 85, 61, 62, 62]",1
+make,flare,mk-032,lookup,True,5.0,5.0,5.0,3,0,0.01395,[107],"[107, 144, 41, 42, 107, 7]",1
+make,flare,mk-033,lookup,True,4.2,4.25,4.225,3,0,0.01279,[107],"[107, 229, 178, 41, 178, 144]",1
+make,flare,mk-034,lookup,True,5.0,5.0,5.0,3,0,0.01429,[97],"[97, 99, 98, 97, 100, 100]",1
+make,flare,mk-035,lookup,True,4.2,5.0,4.6,3,0,0.01536,[99],"[99, 99, 100, 97, 100, 100]",1
+make,flare,mk-037,lookup,True,5.0,5.0,5.0,3,0,0.01195,[92],"[92, 121, 93, 122, 17, 122]",1
+make,flare,mk-036,concept,True,5.0,5.0,5.0,3,0,0.01504,[36],"[36, 36, 36, 51, 36, 96]",1
+make,flare,mk-038,concept,True,5.0,5.0,5.0,3,0,0.01313,[48],"[67, 48, 67, 140, 67, 66]",1
+make,flare,mk-039,lookup,True,5.0,5.0,5.0,3,0,0.01403,[59],"[60, 74, 49, 69, 57, 73]",0
+make,flare,mk-040,lookup,True,4.6,5.0,4.8,3,0,0.01383,[66],"[67, 66, 48, 126, 67, 67]",1
+make,flare,mk-042,concept,True,1.8,1.5,1.65,3,0,0.01324,[118],"[115, 117, 118, 116, 114, 199]",1
+make,flare,mk-041,concept,True,3.4,4.75,4.075,3,0,0.014,[70],"[70, 70, 191, 69, 23, 71]",1
+make,flare,mk-neg-01,negative_cross_doc,False,5.0,2.0,3.5,3,0,0.01209,[],"[85, 79, 114, 78, 119, 80]",
+make,flare,mk-neg-02,negative_cross_doc,False,1.4,2.25,1.825,3,0,0.01454,[],"[192, 106, 225, 106, 193, 225]",
+make,flare,mk-neg-03,negative_cross_doc,False,5.0,2.0,3.5,3,0,0.01447,[],"[128, 132, 128, 217, 197, 217]",
+make,flare,mk-neg-04,negative_cross_doc,False,5.0,2.0,3.5,3,0,0.01264,[],"[136, 152, 193, 135, 151, 152]",
+make,flare,mk-neg-05,negative_out_of_scope,False,5.0,2.0,3.5,3,0,0.01378,[],"[135, 205, 140, 135, 189, 203]",
+make,flare,mk-neg-06,negative_out_of_scope,False,5.0,2.0,3.5,3,0,0.01354,[],"[111, 111, 35, 57, 14, 205]",
+make,flare,mk-neg-07,negative_out_of_scope,False,5.0,2.0,3.5,3,0,0.01224,[],"[206, 196, 71, 169, 138, 196]",
+make,flare,mk-neg-08,negative_out_of_scope,False,5.0,2.0,3.5,3,0,0.01163,[],"[121, 123, 127, 129, 17, 127]",
+make,ear_full,mk-001,concept,True,5.0,5.0,5.0,1,6,0.00709,[13],"[13, 192, 13, 171, 194]",1
+make,ear_full,mk-004,lookup,True,2.8,3.5,3.15,1,6,0.00774,[143],"[143, 227, 77, 51, 195]",1
+make,ear_full,mk-002,concept,True,4.2,4.0,4.1,1,6,0.00673,[35],"[15, 35, 15, 15, 23]",1
+make,ear_full,mk-003,concept,True,4.0,4.75,4.375,1,6,0.00808,[43],"[44, 43, 44, 45, 122]",1
+make,ear_full,mk-005,lookup,True,2.8,1.5,2.15,1,6,0.00751,[143],"[143, 77, 85, 227, 145]",1
+make,ear_full,mk-006,lookup,True,2.8,1.5,2.15,1,6,0.00781,[143],"[143, 77, 227, 195, 85]",1
+make,ear_full,mk-007,lookup,True,1.6,1.25,1.425,1,6,0.00628,[143],"[143, 77, 227, 195, 81]",1
+make,ear_full,mk-008,lookup,True,4.2,4.5,4.35,1,6,0.00976,[144],"[144, 227, 77, 143, 227]",1
+make,ear_full,mk-009,concept,True,4.2,4.5,4.35,1,6,0.00836,[141],"[141, 141, 9, 141, 53]",1
+make,ear_full,mk-010,lookup,True,3.0,4.0,3.5,1,6,0.00933,[37],"[39, 37, 38, 225, 38]",1
+make,ear_full,mk-011,concept,True,5.0,4.5,4.75,1,6,0.00964,[78],"[81, 79, 85, 87, 86]",0
+make,ear_full,mk-013,lookup,True,5.0,5.0,5.0,1,6,0.00749,[81],"[81, 81, 85, 79, 87]",1
+make,ear_full,mk-015,lookup,True,4.6,5.0,4.8,1,6,0.00843,[63],"[63, 129, 165, 64, 166]",1
+make,ear_full,mk-014,lookup,True,4.2,5.0,4.6,1,6,0.00946,[86],"[86, 86, 80, 81, 87]",1
+make,ear_full,mk-012,concept,True,2.4,2.75,2.575,1,6,0.01288,[79],"[79, 80, 80, 79, 78]",1
+make,ear_full,mk-016,lookup,True,3.4,3.0,3.2,1,6,0.00853,[63],"[67, 126, 126, 71, 129]",0
+make,ear_full,mk-017,lookup,True,4.2,3.5,3.85,1,6,0.00738,[123],"[129, 124, 124, 217, 71]",0
+make,ear_full,mk-018,lookup,True,5.0,5.0,5.0,1,6,0.00622,[127],"[127, 71, 129, 124, 131]",1
+make,ear_full,mk-019,concept,True,5.0,5.0,5.0,1,6,0.00742,[25],"[25, 25, 23, 25, 87]",1
+make,ear_full,mk-020,concept,True,2.4,3.0,2.7,1,6,0.00938,[69],"[72, 71, 73, 71, 196]",0
+make,ear_full,mk-021,concept,True,5.0,5.0,5.0,1,6,0.00614,[39],"[39, 40, 40, 41, 40]",1
+make,ear_full,mk-022,concept,True,5.0,5.0,5.0,1,6,0.00752,[40],"[40, 39, 40, 41, 40]",1
+make,ear_full,mk-024,lookup,True,5.0,5.0,5.0,1,6,0.00791,[104],"[104, 107, 83, 192, 105]",1
+make,ear_full,mk-025,lookup,True,5.0,5.0,5.0,1,6,0.00566,[105],"[192, 103, 117, 115, 106]",0
+make,ear_full,mk-023,lookup,True,2.2,2.25,2.225,1,6,0.00949,[104],"[104, 105, 107, 82, 170]",1
+make,ear_full,mk-026,lookup,True,5.0,5.0,5.0,1,6,0.00637,[106],"[192, 106, 103, 117, 119]",1
+make,ear_full,mk-027,lookup,True,4.6,1.25,2.925,1,6,0.00471,[106],"[192, 117, 84, 119, 110]",0
+make,ear_full,mk-028,concept,True,5.0,5.0,5.0,1,6,0.00799,[111],"[111, 112, 111, 112, 157]",1
+make,ear_full,mk-030,concept,True,4.8,4.25,4.525,1,6,0.00898,[111],"[113, 113, 114, 103, 9]",0
+make,ear_full,mk-029,concept,True,3.2,3.0,3.1,1,6,0.00813,[109],"[194, 99, 105, 97, 109]",1
+make,ear_full,mk-031,concept,True,5.0,5.0,5.0,1,6,0.00799,[119],"[119, 119, 61, 62, 62]",1
+make,ear_full,mk-032,lookup,True,5.0,5.0,5.0,1,6,0.00595,[107],"[144, 107, 41, 144, 107]",1
+make,ear_full,mk-033,lookup,True,4.0,4.25,4.125,1,6,0.0065,[107],"[107, 178, 229, 41, 178]",1
+make,ear_full,mk-034,lookup,True,5.0,5.0,5.0,1,6,0.00995,[97],"[97, 99, 98, 194, 98]",1
+make,ear_full,mk-035,lookup,True,3.2,5.0,4.1,1,6,0.00761,[99],"[99, 99, 100, 100, 97]",1
+make,ear_full,mk-036,concept,True,5.0,5.0,5.0,1,6,0.0086,[36],"[36, 36, 51, 36, 222]",1
+make,ear_full,mk-037,lookup,True,5.0,5.0,5.0,1,6,0.00745,[92],"[92, 93, 121, 17, 122]",1
+make,ear_full,mk-038,concept,True,5.0,5.0,5.0,1,6,0.00665,[48],"[67, 48, 67, 67, 66]",1
+make,ear_full,mk-039,lookup,True,3.4,3.0,3.2,1,6,0.00818,[59],"[60, 74, 8, 74, 57]",0
+make,ear_full,mk-042,concept,True,1.4,1.0,1.2,1,6,0.00755,[118],"[115, 118, 114, 199, 116]",1
+make,ear_full,mk-040,lookup,True,5.0,5.0,5.0,1,6,0.00857,[66],"[67, 66, 48, 67, 63]",1
+make,ear_full,mk-neg-01,negative_cross_doc,False,5.0,2.0,3.5,1,6,0.00625,[],"[80, 80, 78, 85, 227]",
+make,ear_full,mk-041,concept,True,4.0,5.0,4.5,1,6,0.00774,[70],"[70, 70, 191, 69, 71]",1
+make,ear_full,mk-neg-03,negative_cross_doc,False,5.0,2.0,3.5,1,6,0.0076,[],"[128, 132, 217, 217, 128]",
+make,ear_full,mk-neg-02,negative_cross_doc,False,1.4,1.5,1.45,1,6,0.00865,[],"[192, 225, 193, 220, 225]",
+make,ear_full,mk-neg-04,negative_cross_doc,False,5.0,2.0,3.5,1,6,0.00604,[],"[136, 152, 135, 43, 43]",
+make,ear_full,mk-neg-06,negative_out_of_scope,False,5.0,2.0,3.5,1,6,0.00656,[],"[111, 35, 57, 205, 223]",
+make,ear_full,mk-neg-05,negative_out_of_scope,False,5.0,3.0,4.0,1,6,0.00658,[],"[140, 216, 135, 184, 205]",
+make,ear_full,mk-neg-07,negative_out_of_scope,False,5.0,2.0,3.5,1,6,0.00558,[],"[206, 196, 71, 138, 178]",
+make,ear_full,mk-neg-08,negative_out_of_scope,False,5.0,2.0,3.5,1,6,0.00566,[],"[123, 127, 121, 129, 187]",

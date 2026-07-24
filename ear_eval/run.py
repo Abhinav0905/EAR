@@ -26,6 +26,13 @@ CORPORA = {
     "wmp": {"pdf": f"{WMP}/pge-wmp.pdf", "title": "PG&E 2026-2028 Wildfire Mitigation Plan",
             "trim_refs": False, "source": "wmp_golden",
             "golden": f"{WMP}/evaluation/trial1_baseline/golden_test_set.json"},
+    # ── EAR second-domain (GNU technical documentation); provided ground-truth set ──
+    "bash": {"pdf": f"{WMP}/gnu-bash-reference-manual.pdf", "title": "GNU Bash Reference Manual",
+             "trim_refs": False, "source": "gnu_provided", "gnu": f"{WMP}/gnu_manuals_questions.jsonl"},
+    "coreutils": {"pdf": f"{WMP}/gnu-coreutils-manual.pdf", "title": "GNU Coreutils Manual",
+                  "trim_refs": False, "source": "gnu_provided", "gnu": f"{WMP}/gnu_manuals_questions.jsonl"},
+    "make": {"pdf": f"{WMP}/gnu-make-manual.pdf", "title": "GNU Make Manual",
+             "trim_refs": False, "source": "gnu_provided", "gnu": f"{WMP}/gnu_manuals_questions.jsonl"},
 }
 
 CORE_VARIANTS = ["simple", "reranked_simple", "agentic", "self_rag", "flare", "ear_full"]
@@ -136,7 +143,7 @@ def _metrics(res):
     }
 
 
-def run_corpus(corpus, n, variants, judge_runs=None, gen_model=None, smoke=False, max_workers=5, tag=None):
+def run_corpus(corpus, n, variants, judge_runs=None, gen_model=None, smoke=False, max_workers=5, tag=None, limit=None):
     cfg = CORPORA[corpus]
     judge_runs = judge_runs or config.JUDGE_RUNS
     gen_model = gen_model or config.GEN_MODEL
@@ -150,8 +157,13 @@ def run_corpus(corpus, n, variants, judge_runs=None, gen_model=None, smoke=False
         topup = max(0, n - len(curated))
         extra = corpora.generate_questions(corpus, chunks, cfg["title"], topup, cache=True) if topup else []
         questions = curated + extra
+    elif cfg["source"] == "gnu_provided":
+        # fixed, hand-authored set filtered to this corpus; --n is ignored (no top-up)
+        questions = corpora.load_gnu_questions(cfg["gnu"], corpus)
     else:
         questions = corpora.generate_questions(corpus, chunks, cfg["title"], n, cache=True)
+    if limit:
+        questions = questions[:limit]
     # keep all (may exceed n with supplemental negative controls)
     print(f"[{corpus}] {len(questions)} questions")
 
@@ -220,6 +232,7 @@ def main():
     ap.add_argument("--judge-runs", type=int, default=config.JUDGE_RUNS)
     ap.add_argument("--gen", default="sonnet", choices=["sonnet", "haiku"])
     ap.add_argument("--smoke", action="store_true")
+    ap.add_argument("--limit", type=int, default=None, help="cap questions per corpus (smoke/debug)")
     args = ap.parse_args()
 
     if args.variants == "core":
@@ -234,7 +247,8 @@ def main():
     gen_model = config.HAIKU if args.gen == "haiku" else config.SONNET
     corp = list(CORPORA) if args.corpus == "all" else [args.corpus]
     for c in corp:
-        run_corpus(c, args.n, variants, judge_runs=args.judge_runs, gen_model=gen_model, smoke=args.smoke)
+        run_corpus(c, args.n, variants, judge_runs=args.judge_runs, gen_model=gen_model,
+                   smoke=args.smoke, limit=args.limit)
     print("\nDone. Aggregate with: python -m ear_eval.report")
 
 
